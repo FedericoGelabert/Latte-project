@@ -1,14 +1,17 @@
 # Latte.
 
+This project is undergoing modifications.
+
 
 ### Dependencies
 
 - sass
+- framer motion
 
 ### Installation
 
 ```
-git clone "https://..."
+git clone https://github.com/FedericoGelabert/Latte-project.git
 npm install
 npm start
 ```

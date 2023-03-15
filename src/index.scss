@@ -4,10 +4,15 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
 
 @mixin essentials-img {
   object-fit: cover;
-  width: 300px;
+  width: 350px;
   margin: 30px;
   filter: drop-shadow(1px 1px 3px black);
 }
@@ -28,8 +33,8 @@
 
 
     img {
-      width: 45px;
-      height: 30px;
+      width: 110px;
+      height: 40px;
     }
   }
   
@@ -61,6 +66,7 @@
 
   .home {
     display: flex;
+    flex-direction: column;
 
     &__content {
       display: flex;
@@ -80,6 +86,29 @@
         font-size: 1.3em;
       }
     }
+
+    &__arrow {
+      padding-top: 200px;
+      display: flex;
+      justify-content: center;
+
+      span {
+        width: 10px;
+        height: 40px;
+        border-radius: 6px;
+        background-color: white;
+        margin: 6px;
+        animation: arrowMovement 1.1s infinite ease-in-out;
+      }
+
+      span:nth-of-type(1) {
+        transform: rotate(-45deg);
+      }
+
+      span:nth-of-type(2) {
+        transform: rotate(45deg);
+      }
+    }
   }
 }
 
@@ -91,12 +120,12 @@
     color: rgba(71, 71, 71, 0.51);
     font-size: 2.5em;
     position: absolute;
-    left: 300px;
-    bottom: -150px;    
+    left: 200px;
+    bottom: -180px;    
   }
 
   .essentials {
-    height: 95vh;
+    height: 110vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,13 +167,13 @@
 
     &__p {
       color: black;
-      font-size: 1.1em;
+      font-size: 1.3em;
     }
   }
 }
 
 .about {
-  height: 100vh;
+  height: 110vh;
   background-color: rgba(0, 0, 0, 0.93);
   display: flex;
   align-items: center;
@@ -184,23 +213,29 @@
 .products {
   display: flex;
   height: 90vh;
-  background-color: rgba(0, 0, 0, 0.93);
-  justify-content: center;
+  background-color: white;
 
   h2 {
-    color: rgba(255, 255, 255, 0.51);
+    color: rgba(55, 51, 51, 0.652);
     font-size: 2.5em;
   }
 
   &__content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
   }
 }
 
 
+@keyframes arrowMovement {
+  0%{
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 40px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
 
 
 
