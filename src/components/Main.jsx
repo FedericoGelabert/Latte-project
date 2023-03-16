@@ -21,10 +21,12 @@ const Main = () => {
                     </motion.p>
                 </div>
             </div>
+            <a href="#about">
             <motion.div className="home__arrow" animate="visible" initial="hidden" transition={{ delay: 2, x: { duration: 1.5 } }} variants={opacityTransition}>
                 <span></span>
                 <span></span>
             </motion.div>
+            </a>
         </div>
     )
 }

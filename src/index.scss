@@ -4,9 +4,13 @@
   box-sizing: border-box;
 }
 
-body {
+html, body {
   overflow-x: hidden;
   scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 
@@ -112,88 +116,26 @@ body {
   }
 }
 
-
-.essentials-container {
-  background-color: rgba(255, 254, 254, 0.974);
-
-  h2 {
-    color: rgba(71, 71, 71, 0.51);
-    font-size: 2.5em;
-    position: absolute;
-    left: 200px;
-    bottom: -180px;    
-  }
-
-  .essentials {
-    height: 110vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-
-    &__content {
-      display: flex;
-      align-items: center;
-
-      p {
-        color: black;
-        font-size: 3em;
-        font-weight: 600
-      }
-    }
-
-    &__coffee {
-      img {
-        @include essentials-img;
-      }
-    }
-
-    &__water {
-      display: inline-block;
-
-      img {
-        @include essentials-img;
-      }
-    }
-
-    &__result {
-      display: inline-block;
-
-      img {
-        @include essentials-img;
-      }
-    }
-
-    &__p {
-      color: black;
-      font-size: 1.3em;
-    }
-  }
-}
-
 .about {
-  height: 110vh;
-  background-color: rgba(0, 0, 0, 0.93);
-  display: flex;
-  align-items: center;
-  padding-left: 150px;
+  height: 100vh;
+  background-color: white;
 
   &__content {
-    display: flex;
-    color: white;
-    flex-direction: row;
-    align-items: center;
+    color: black;
+    position: relative;
   }
   &__text {
+    position: absolute;
+    top: 150px;
+    left: 950px;
     width: 600px;
     display: flex;
     flex-direction: column;
 
     h2 {
-      color: rgba(255, 255, 255, 0.51);
+      color: rgba(71, 62, 62, 0.625);
       font-size: 2.5em;
-      margin-bottom: 40px;
+      margin-bottom: 30px;
     }
 
     p {
@@ -202,10 +144,50 @@ body {
     
   }
   img {
-    width: 650px;
-    transform: rotate(345deg);
-    filter: drop-shadow(0px 10px 1px rgba(255, 255, 255, 0.875));
-    filter: drop-shadow(0px 0px 3px white);
+    filter: drop-shadow(0px 0px 3px black);
+  }
+
+  &__img1 {
+    position: absolute;
+    transform: rotate(350deg);
+    top: 150px;
+    left: 175px;
+    width: 675px;
+  }
+  &__img2 {
+    position: absolute;
+    transform: rotate(4deg);
+    width: 750px;
+    left: 650px;
+    top: 420px;
+  }
+}
+
+
+.quality {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 140px;
+  height: 400px;
+  margin: 50px 0 50px 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  background-image: url(https://res.cloudinary.com/federicog/image/upload/v1678996664/Latte/quality-bg1_qe8jog.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: soft-light;
+  background-attachment: fixed;
+  color: white;
+
+  h2 {
+    color: rgba(220, 213, 213, 0.649);
+    font-size: 3.5em;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 1.2em;
   }
 }
 
@@ -218,9 +200,6 @@ body {
   h2 {
     color: rgba(55, 51, 51, 0.652);
     font-size: 2.5em;
-  }
-
-  &__content {
   }
 }
 

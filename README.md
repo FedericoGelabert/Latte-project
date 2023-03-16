@@ -1,4 +1,4 @@
-# Latte.
+# Latte
 
 This project is undergoing modifications.
 

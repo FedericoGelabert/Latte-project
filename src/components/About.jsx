@@ -1,15 +1,40 @@
+import { motion } from "framer-motion";
+import { xTransition } from "../utils/variants";
+
+
 const About = () => {
   return (
     <div id="about" className="about">
       <div className="about__content">
-        <div>
-          <img src="https://res.cloudinary.com/federicog/image/upload/v1678822897/Latte/coffee-latte_cvzxxl.png" alt="Latte Coffee" />
+        <div className="about__img-container">
+          <motion.img src="https://res.cloudinary.com/federicog/image/upload/v1678991784/Latte/coffee-shop_aewzee.jpg"
+            alt="Latte Coffee"
+            className="about__img1"
+            variants={xTransition}
+            whileInView={{ x: 0, opacity: 1, rotate: "-8deg" }}
+            initial="hidden"
+            viewport={{ once: true }}
+            transition={{ delay: 0.3 }}
+          />
+          <motion.img src="https://res.cloudinary.com/federicog/image/upload/v1678994492/Latte/coffee-shop-img2_s7dyxj.jpg"
+            alt="Latte Coffee"
+            className="about__img2"
+            variants={xTransition}
+            whileInView={{ x: 0, opacity: 1, rotate: "4deg" }}
+            initial="hidden"
+            viewport={{ once: true }}
+            transition={{ delay: 0.5 }}
+          />
         </div>
         <div className="about__text">
-          <h2>About</h2>
-          <p>Latte is a coffee company that was born from an idea by Ben Sekiro. He was a competent software developer who loved coffee. As coffee fan,
+          <motion.h2 whileInView={{ x: 0, opacity: 1 }} initial={{ x: 100, opacity: 0 }} transition={{ delay: 0.8 }} viewport={{ once: true }}>
+            About
+          </motion.h2>
+          <motion.p whileInView={{ x: 0, opacity: 1 }} initial={{ x: 100, opacity: 0 }} transition={{ delay: 0.8 }} viewport={{ once: true }}>
+            Latte is a coffee company that was born from an idea by Ben Sekiro. He was a competent software developer who loved coffee. As coffee fan,
             he decided to start his own brand in 1967, with the name known today as Latte. With the simple objective of giving good quality at a good price.
-            That is why we are one of the companies most chosen by critics and daily customers of our stores.</p>
+            That is why we are one of the companies most chosen by critics and daily customers of our stores.
+          </motion.p>
         </div>
       </div>
     </div>

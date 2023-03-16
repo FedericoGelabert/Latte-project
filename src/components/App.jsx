@@ -1,16 +1,16 @@
 import About from "./About";
 import Contact from "./Contact";
-import Essentials from "./Essentials";
 import Footer from "./Footer";
 import Main from "./Main";
 import Products from "./Products";
+import Quality from "./Quality";
 
 function App() {
   return (
     <div>
       <Main/>
-      <Essentials/>
       <About/>
+      <Quality/>
       <Products/>
       <Contact/>
       <Footer/>
