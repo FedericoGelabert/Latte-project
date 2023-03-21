@@ -1,6 +1,10 @@
 const Gallery = () => {
   return (
-    <div>Gallery</div>
+    <div className="gallery" id="gallery">
+      <h2>Gallery</h2>
+      <div className="gallery__images">
+      </div>
+    </div>
   )
 }
 

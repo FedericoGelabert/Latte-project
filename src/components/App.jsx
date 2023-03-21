@@ -5,6 +5,7 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import Gallery from "./Gallery";
 import Main from "./Main";
+import Menu from "./Menu";
 import Quality from "./Quality";
 import Reviews from "./Reviews";
 
@@ -17,6 +18,7 @@ function App() {
       <Coffee/>
       <Reviews/>
       <Bakery/>
+      <Menu/>
       <Gallery/>
       <Contact/>
       <Footer/>

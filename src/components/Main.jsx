@@ -5,9 +5,9 @@ import { xTransition, opacityTransition } from "../utils/variants";
 
 const Main = () => {
     return (
-        <div className="main">
+        <div className="main" id="home">
             <Header />
-            <div id="home" className="home">
+            <div className="home">
                 <div className="home__content">
                     <motion.h4 animate="visible" initial="hidden" transition={{ delay: 0.2 }} variants={xTransition}>
                             Bad times

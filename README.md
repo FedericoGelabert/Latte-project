@@ -7,6 +7,7 @@ This project is undergoing modifications.
 
 - sass
 - framer motion
+- mantine
 
 ### Installation
 
