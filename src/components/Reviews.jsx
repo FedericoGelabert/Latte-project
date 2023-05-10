@@ -17,11 +17,11 @@ const Reviews = () => {
                 <div className="reviews__stars">
                     <p>Rate: <span>4.5/5</span></p>
                     <div>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star-half-stroke"></i>
                     </div>
                 </div>
             </motion.div>
@@ -38,11 +38,11 @@ const Reviews = () => {
                 <div className="reviews__stars">
                     <p>Rate: <span>5/5</span></p>
                     <div>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
                     </div>
                 </div>
             </motion.div>
@@ -60,11 +60,11 @@ const Reviews = () => {
                 <div className="reviews__stars">
                     <p>Rate: <span>4.5/5</span></p>
                     <div>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star"></i>
+                        <i className="fa-solid fa-star-half-stroke"></i>
                     </div>
                 </div>
             </motion.div>
