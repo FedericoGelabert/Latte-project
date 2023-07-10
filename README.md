@@ -7,13 +7,14 @@ This project is undergoing modifications.
 
 - sass
 - framer motion
-- mantine
 
 ### Installation
 
 ```
 git clone https://github.com/FedericoGelabert/Latte-project.git
+
 npm install
+
 npm start
 ```
 

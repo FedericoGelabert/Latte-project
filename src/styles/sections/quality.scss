@@ -1,0 +1,27 @@
+.quality {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 140px;
+    height: 400px;
+    margin: 50px 0 50px 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    background-image: url(https://res.cloudinary.com/federicog/image/upload/v1678996664/Latte/quality-bg1_qe8jog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-attachment: fixed;
+    color: white;
+  
+    h2 {
+      color: rgba(220, 213, 213, 0.649);
+      font-size: 3.5em;
+      margin-bottom: 20px;
+    }
+  
+    p {
+      font-size: 1.2em;
+      text-align: center;
+    }
+  }

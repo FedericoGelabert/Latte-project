@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { xTransition } from "../utils/variants";
+import { xTransition } from "../../utils/transitions";
 
 const Coffee = () => {
   return (

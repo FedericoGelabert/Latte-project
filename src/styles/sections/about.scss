@@ -1,0 +1,47 @@
+.about {
+    height: 100vh;
+    background-color: white;
+  
+    &__content {
+      color: black;
+      position: relative;
+    }
+    &__text {
+      position: absolute;
+      top: 150px;
+      right: 0;
+      width: 600px;
+      margin-right: 130px;
+      display: flex;
+      flex-direction: column;
+  
+      h2 {
+        color: rgba(71, 62, 62, 0.625);
+        font-size: 2.5em;
+        margin-bottom: 30px;
+      }
+  
+      p {
+        font-size: 1.2em;
+      }
+      
+    }
+    img {
+      filter: drop-shadow(0px 0px 3px black);
+    }
+  
+    &__img1 {
+      position: absolute;
+      transform: rotate(350deg);
+      top: 150px;
+      left: 175px;
+      width: 675px;
+    }
+    &__img2 {
+      position: absolute;
+      transform: rotate(4deg);
+      width: 750px;
+      left: 650px;
+      top: 420px;
+    }
+  }

@@ -1,0 +1,40 @@
+.menu {
+    height: 65vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://res.cloudinary.com/federicog/image/upload/v1679431867/Latte/menu-bg_cl86sc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.75);
+    background-blend-mode: soft-light;
+    background-attachment: inherit;
+  
+    &__content {
+      h2 {
+        font-size: 5em;
+      }
+      p {
+        font-size: 1.5em;
+        margin-bottom: 20px;
+      }
+      button {
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        width: 150px;
+        height: 40px;
+        border: 2px solid white;
+        font-weight: 600;
+        transition: 0.5s;
+        cursor: pointer;
+        
+        &:hover {
+          background-color: white;
+          color: black;
+        }
+      }
+    }
+  }

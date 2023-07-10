@@ -1,0 +1,52 @@
+.reviews {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.70);
+    background-image: url(https://res.cloudinary.com/federicog/image/upload/v1679083885/Latte/coffee-reviews-bg_fan3d0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    text-align: center;
+    position: relative;
+  
+    &__stars {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+  
+      p {
+        color: rgba(255, 255, 255, 0.636);
+      }
+      span {
+        color: white;
+      }
+  
+    }
+    .fa-star, .fa-star-half-stroke {
+      color: rgba(255, 255, 0, 0.993);
+    }
+  
+    &__rev {
+      width: 400px;
+      margin: 40px;
+      margin-top: 120px;
+    }
+  
+    &__h5 {
+      font-size: 1.5em;
+    }
+    &__span {
+      color: rgba(255, 255, 255, 0.518);
+      font-size: 0.85em;
+    }
+    &__p {
+      padding-top: 20px;
+      color: rgba(255, 255, 255, 0.959);
+      padding-bottom: 20px;
+    }
+  }

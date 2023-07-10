@@ -1,0 +1,41 @@
+.bakery {
+    height: 95vh;
+    position: relative;
+  
+    h2 {
+      color: rgba(56, 53, 53, 0.715);
+      font-size: 3em;
+      margin-bottom: 5px;
+    }
+  
+    hr {
+      width: 450px;
+      position: absolute;
+      height: 4px;
+      background-color: black;
+    }
+    
+    &__img {
+      position: absolute;
+      right: 0;
+      top: 60px;
+      margin-right: -300px;
+      transform: rotate(-5deg);
+      img {
+        width: 1200px;
+        filter: drop-shadow(1px 5px 3px black);
+      }
+    }
+  
+    &__table {
+      position: absolute;
+      top: 150px;
+      left: 200px;
+  
+      td {
+        font-size: 1.4em;
+        padding-bottom: 15px;
+        width: 280px;
+      }
+    }
+  }

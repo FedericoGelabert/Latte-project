@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { yTransition } from "../utils/variants";
+import { yTransition } from "../../utils/transitions";
 
 const Menu = () => {
     return (
