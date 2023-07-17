@@ -1,16 +1,14 @@
 .header {
-    height: 10%;
+    height: 10vh;
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0);
     color: white;
   
     &__icon {
       font-weight: 600;
       font-size: 2em;
-      display: flex;
-      align-items: center;
-  
   
       img {
         width: 110px;
@@ -22,6 +20,7 @@
     .navbar {
       display: flex;
       align-items: center;
+      font-family: 'Ubuntu', sans-serif;
   
       &__ul {
         display: flex;

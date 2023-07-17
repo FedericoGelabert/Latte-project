@@ -1,17 +1,20 @@
 import { motion } from "framer-motion";
-import Header from "./Header";
 import { xTransition, opacityTransition } from "../../utils/transitions";
 
 
 const Main = () => {
     return (
         <div className="main" id="home">
-            <Header />
             <div className="home">
+                <div className="home__black-b"></div>
+                <div className="home__video">
+                    <video src="https://res.cloudinary.com/federicog/video/upload/v1689630246/Latte/rainy-coffee-b_tyy4ea.mp4" loop autoPlay muted>
+                    </video>
+                </div>
                 <div className="home__content">
                     <motion.h4 animate="visible" initial="hidden" transition={{ delay: 0.2 }} variants={xTransition}>
-                            Bad times
-                        </motion.h4>
+                        Bad times
+                    </motion.h4>
                     <motion.h2 animate="visible" initial="hidden" transition={{ delay: 0.5 }} variants={xTransition}>
                         Good Coffee
                     </motion.h2>
@@ -22,12 +25,12 @@ const Main = () => {
                 </div>
             </div>
             <div>
-            <a href="#about">
-            <motion.div className="home__arrow" animate="visible" initial="hidden" transition={{ delay: 2, x: { duration: 0.5 } }} variants={opacityTransition}>
-                <span></span>
-                <span></span>
-            </motion.div>
-            </a>
+                <a href="#about">
+                    <motion.div className="main__arrow" animate="visible" initial="hidden" transition={{ delay: 2, x: { duration: 0.5 } }} variants={opacityTransition}>
+                        <p></p>
+                        <p></p>
+                    </motion.div>
+                </a>
             </div>
         </div>
     )
