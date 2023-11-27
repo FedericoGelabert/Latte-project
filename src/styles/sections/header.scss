@@ -36,5 +36,15 @@
         color: white;
         font-weight: 600;
       }
+
+      &__fastlinks {
+        align-items: center;
+        display: flex;
+
+        a {
+          padding: 5px;
+          font-size: 1.2rem;
+        }
+      }
     }
   }

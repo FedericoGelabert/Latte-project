@@ -12,29 +12,15 @@ import Reviews from "./sections/Reviews";
 
 function App() {
   return (
-    <div id="app">
-      <div style={{scrollSnapAlign: "center"}}>
-        <Header/>
-      </div>
+    <div>
+      <Header/>
       <Main/>
-      <div style={{scrollSnapAlign: "center"}}>
-        <About/>
-      </div>
-      <div style={{scrollSnapAlign: "center"}}>
-        <Quality/>
-      </div>
-      <div style={{scrollSnapAlign: "center"}}>
-        <Coffee/>
-      </div>
-      <div style={{scrollSnapAlign: "center"}}>
-        <Reviews/>
-      </div>
-      <div style={{scrollSnapAlign: "center"}}>
-        <Bakery/>
-      </div>
-      <div style={{scrollSnapAlign: "center"}}>
-        <Menu/>
-      </div>
+      <About/>
+      <Quality/>
+      <Coffee/>
+      <Reviews/>
+      <Bakery/>
+      <Menu/>
       <Gallery/>
       <Contact/>
       <Footer/>
