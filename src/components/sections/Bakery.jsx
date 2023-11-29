@@ -1,14 +1,11 @@
-import { motion } from "framer-motion";
-import { xTransition } from "../../utils/transitions";
-
 const Bakery = () => {
   return (
-    <div className="bakery" id="bakery">
-      <div className="bakery__menu">
-        <table className="bakery__table">
-          <div className="bakery__theader">
-            <h2>Bakery</h2>
-            <hr />
+    <div className="h-screen w-full relative" id="bakery">
+      <div className="container px-20">
+        <table className="bakery-table absolute top-36 left-48">
+          <div>
+            <h2 className="text-latte-gray text-5xl mb-1">Bakery</h2>
+            <hr className="w-[450px] absolute h-1 bg-black" />
           </div>
           <div style={{ paddingTop: 50 }}>
             <tr>
@@ -53,8 +50,8 @@ const Bakery = () => {
             </tr>
           </div>
         </table>
-        <div className="bakery__img">
-          <img src="https://res.cloudinary.com/federicog/image/upload/v1679430434/Latte/Cookies_Cream_Baby_CC_montage_w2vecu.png"
+        <div className="absolute right-0 top-16 -mr-80 -rotate-0">
+          <img className="w-[1200px]" style={{filter:'drop-shadow(1px 5px 3px black);'}} src="https://res.cloudinary.com/federicog/image/upload/v1679430434/Latte/Cookies_Cream_Baby_CC_montage_w2vecu.png"
             alt="Latte Cheescake"
           />
         </div>

@@ -5,7 +5,8 @@ This project is undergoing modifications.
 
 ### Dependencies
 
-- sass
+- tailwindcss
+- postcss
 - framer motion
 
 ### Installation
@@ -20,4 +21,4 @@ npm start
 
 ### Contact
 
-Federico Gelabert - [Linkedin](https://www.linkedin.com/in/federico-gelabert-2b656b238/)
+Federico Gelabert - [Linkedin](https://www.linkedin.com/in/federico-gelabert/)
