@@ -1,6 +1,6 @@
 const Navbar = () => {
     return (
-        <div className="flex items-center font-ubuntu" initial={{ y: -100, opacity: 0 }} animate={{ y: 0, opacity: 1 }}>
+        <div className="flex items-center font-ubuntu">
             <ul className="flex ul-navbar">
                 <li>
                     <a href="#header">Home</a>
@@ -20,7 +20,7 @@ const Navbar = () => {
                 <li>
                     <a href="#contact">Contact</a>
                 </li>
-                <div className="fastlinks flex items-center">
+                {/* <div className="fastlinks flex items-center">
                     <a href="#">
                         <i class="fa-solid fa-location-dot"></i>
                     </a>
@@ -30,7 +30,7 @@ const Navbar = () => {
                     <a href="#">
                         <i class="fa-brands fa-facebook"></i>
                     </a>
-                </div>
+                </div> */}
             </ul>
         </div>
     )

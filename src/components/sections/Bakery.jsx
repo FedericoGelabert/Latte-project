@@ -51,7 +51,7 @@ const Bakery = () => {
           </div>
         </table>
         <div className="absolute right-0 top-16 -mr-80 -rotate-0">
-          <img className="w-[1200px]" style={{filter:'drop-shadow(1px 5px 3px black);'}} src="https://res.cloudinary.com/federicog/image/upload/v1679430434/Latte/Cookies_Cream_Baby_CC_montage_w2vecu.png"
+          <img className="w-[1200px]" src="https://res.cloudinary.com/federicog/image/upload/v1679430434/Latte/Cookies_Cream_Baby_CC_montage_w2vecu.png"
             alt="Latte Cheescake"
           />
         </div>

@@ -11,7 +11,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
@@ -21,57 +22,28 @@ body::-webkit-scrollbar {
 }
 
 .ul-navbar li {
-    list-style: none;
-    margin: 10px;
+  list-style: none;
+  margin: 18px;
+  font-size: 1.1rem;
 }
 
 .ul-navbar li a {
-    text-decoration: none;
-    font-weight: 600;
+  text-decoration: none;
+  font-weight: 600;
 }
 
-.fastlinks a {
-    padding: 5px;
-    font-size: 1.2rem;
-}
+/* .fastlinks a {
+  padding: 5px;
+  font-size: 1.2rem;
+} */
 
-.arrow p {
-  width: 10px;
-  height: 40px;
-  border-radius: 6px;
-  background-color: white;
-  margin: 6px;
-  animation: arrowMovement 1.1s infinite ease-in-out;
-}
-
-.arrow p:nth-of-type(1) {
-  transform: rotate(-45deg);
-}
-
-.arrow p:nth-of-type(2) {
-  transform: rotate(45deg);
-}
-
-.fa-star, .fa-star-half-stroke {
+.fa-star,
+.fa-star-half-stroke {
   color: rgba(255, 255, 0, 0.993);
 }
 
-@keyframes arrowMovement {
-  0% {
-      margin-top: 0;
-  }
-
-  50% {
-      margin-top: 40px;
-  }
-
-  100% {
-      margin-top: 0;
-  }
-}
-
 .bakery-table td {
-    font-size: 1.4em;
-    padding-bottom: 15px;
-    width: 280px;
+  font-size: 1.4em;
+  padding-bottom: 15px;
+  width: 280px;
 }
