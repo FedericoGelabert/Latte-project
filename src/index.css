@@ -11,15 +11,18 @@
   box-sizing: border-box;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+  overflow-x: hidden;
+}
+
 html,
 body {
+  position: relative;
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
-body::-webkit-scrollbar {
-  display: none;
-}
 
 .ul-navbar li {
   list-style: none;

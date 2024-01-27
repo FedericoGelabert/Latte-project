@@ -3,7 +3,7 @@ import { yTransition } from "../../utils/transitions";
 
 const Menu = () => {
     return (
-        <div className="font-ubu h-[500px] w-screen bg-black text-white flex justify-center items-center text-center bg-cover bg-no-repeat bg-black-b1 bg-blend-soft-light"
+        <div className="font-ubu h-[500px] w-full bg-black text-white flex justify-center items-center text-center bg-cover bg-no-repeat bg-black-b1 bg-blend-soft-light"
      style={{backgroundImage:'url(https://res.cloudinary.com/federicog/image/upload/v1679431867/Latte/menu-bg_cl86sc.jpg)'}}>
             <div className="container px-20">
                 <motion.h2 className="text-[5rem] mb-0" variants={yTransition} initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ delay: 0.2 }}>Menu</motion.h2>
