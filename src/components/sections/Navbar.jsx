@@ -3,7 +3,7 @@ const Navbar = () => {
         <div className="flex items-center font-ubuntu">
             <ul className="flex ul-navbar">
                 <li>
-                    <a href="#header">Home</a>
+                    <a href="#home">Home</a>
                 </li>
                 <li>
                     <a href="#about">About</a>

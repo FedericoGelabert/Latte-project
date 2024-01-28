@@ -8,6 +8,7 @@ This project is undergoing modifications.
 - tailwindcss
 - postcss
 - framer motion
+- swiper
 
 ### Next List
 

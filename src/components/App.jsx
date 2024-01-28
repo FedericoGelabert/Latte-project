@@ -11,6 +11,9 @@ import Reviews from "./sections/Reviews";
 import Presentation from "./sections/Presentation";
 import BackgroundVideo from '../utils/BackgroundVideo';
 import Header from "./sections/Header";
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
 
 function App() {
   return (
@@ -26,8 +29,10 @@ function App() {
       <div className="snap-center">
         <About/>
       </div>
+      <div className="snap-center">
+        <Coffee/>
+      </div>
       <Quality/>
-      <Coffee/>
       <Reviews/>
       <Bakery/>
       <Menu/>
