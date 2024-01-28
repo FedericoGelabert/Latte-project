@@ -1,13 +1,10 @@
 import { motion } from "framer-motion";
 import { xTransition, opacityTransition } from "../../utils/transitions";
-import Header from "./Header";
 
 
 const Main = () => {
     return (
-        <div>
-            <Header />
-            <div className="w-screen h-[100vh] relative font-ubuntu flex items-center pb-32" id="home">
+            <div className="w-screen h-screen relative font-ubuntu flex items-center" id="home">
                 <div className="flex items-start justify-center flex-col text-white absolute z-30 pl-20">
                     <motion.h4 className="text-[5.5rem] leading-10" initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ delay: 0.2 }} variants={xTransition}>
                         Bad times,
@@ -21,7 +18,6 @@ const Main = () => {
                     </motion.p>
                 </div>
             </div>
-        </div>
     )
 }
 

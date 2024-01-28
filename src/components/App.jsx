@@ -10,18 +10,22 @@ import Quality from "./sections/Quality";
 import Reviews from "./sections/Reviews";
 import Presentation from "./sections/Presentation";
 import BackgroundVideo from '../utils/BackgroundVideo';
+import Header from "./sections/Header";
 
 function App() {
   return (
-    <div className="snap-y snap-mandatory relative w-full h-screen overflow-auto scroll-smooth">
+    <div className="snap-y snap-mandatory relative w-screen h-screen overflow-auto scroll-smooth">
       <BackgroundVideo/>
+      <Header/>
       <div className="snap-center">
         <Presentation/>
       </div>
       <div className="snap-center">
         <Main/>
       </div>
-      <About/>
+      <div className="snap-center">
+        <About/>
+      </div>
       <Quality/>
       <Coffee/>
       <Reviews/>

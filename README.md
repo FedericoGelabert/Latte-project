@@ -9,6 +9,13 @@ This project is undergoing modifications.
 - postcss
 - framer motion
 
+### Next List
+
+- [x] Create a new logo and add it.
+- [] Hide header until Main Layout.
+- [] Add an arrow animation on Presentation Layout.
+- [] Finish all sections.
+
 ### Installation
 
 ```

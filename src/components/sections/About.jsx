@@ -1,7 +1,7 @@
 const About = () => {
   return (
-    <div id="about" className="h-screen w-screen relative bg-black ">
-      <div className="container px-20">
+    <div className="w-screen h-screen flex items-center relative font-ubuntu" id="about">
+      <div className="flex items-start justify-center flex-col text-white absolute z-30 pl-20">
         <div className="w-[600px] flex flex-col text-white">
           <h2 className="text-latte-gray text-[2.5rem] mb-8 font-ubuntu">
             About
