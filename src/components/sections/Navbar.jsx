@@ -6,9 +6,6 @@ const Navbar = () => {
                     <a href="#home">Home</a>
                 </li>
                 <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
                     <a href="#coffee">Coffee</a>
                 </li>
                 <li>
@@ -16,6 +13,12 @@ const Navbar = () => {
                 </li>
                 <li>
                     <a href="#gallery">Gallery</a>
+                </li>
+                <li>
+                    <a href="#reviews">Reviews</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
                 </li>
                 <li>
                     <a href="#contact">Contact</a>

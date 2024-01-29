@@ -27,14 +27,18 @@ function App() {
         <Main/>
       </div>
       <div className="snap-center">
-        <About/>
-      </div>
-      <div className="snap-center">
         <Coffee/>
       </div>
+      <div className="snap-center">
+       <Reviews/>
+      </div>
+      <div className="snap-center">
+        <Bakery/> 
+      </div>
+      <div className="snap-center">
+        <About/>
+      </div>
       <Quality/>
-      <Reviews/>
-      <Bakery/>
       <Menu/>
       <Gallery/>
       <Contact/>

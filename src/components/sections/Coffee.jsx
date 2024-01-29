@@ -1,8 +1,6 @@
 import CoffeeStepper from "../../utils/CoffeeStepper";
 
-
 const Coffee = () => {
-
   return (
     <div className="w-screen h-screen relative font-ubuntu flex items-center" id="coffee">
       <div className="w-full h-full flex items-center justify-center flex-col text-white z-30">
