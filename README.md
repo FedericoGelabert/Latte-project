@@ -15,6 +15,7 @@ This project is undergoing modifications.
 - [x] Create a new logo and add it.
 - [ ] Hide header until Main Layout.
 - [ ] Add an arrow animation on Presentation Layout.
+- [ ] Make sound and mute icons functional.
 - [ ] Finish all sections.
 
 ### Installation
