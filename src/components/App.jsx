@@ -1,5 +1,4 @@
 import Main from "./sections/Main";
-import About from "./sections/About";
 import Bakery from "./sections/Bakery";
 import Coffee from "./sections/Coffee";
 import Contact from "./sections/Contact";
@@ -30,13 +29,10 @@ function App() {
         <Coffee/>
       </div>
       <div className="snap-center">
-       <Reviews/>
-      </div>
-      <div className="snap-center">
         <Bakery/> 
       </div>
       <div className="snap-center">
-        <About/>
+       <Reviews/>
       </div>
       <Quality/>
       <Menu/>
