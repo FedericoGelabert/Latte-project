@@ -17,6 +17,7 @@ This project is undergoing modifications.
 - [ ] Add an arrow animation on Presentation Layout.
 - [ ] Make sound and mute icons functional.
 - [ ] Finish all sections.
+- [ ] Optimize images.
 
 ### Installation
 

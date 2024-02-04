@@ -3,6 +3,7 @@ import CoffeeStepper from "../../utils/CoffeeStepper";
 const Coffee = () => {
   return (
     <div className="w-screen h-screen relative font-ubuntu flex items-center" id="coffee">
+      <img src="coffee-beans.png" alt="Coffee Beans" className="absolute right-0 z-40 w-64 mr-48 mt-96 -rotate-12"/>
       <div className="w-full h-full flex items-center justify-center flex-col text-white z-30">
         <div className="px-20 bg-[rgba(10,57,52,.89)] w-8/12 h-3/6 rounded-3xl">
           <h2 className="text-latte-gray text-[2.5rem] mb-5 mt-10">Our Coffee</h2>
