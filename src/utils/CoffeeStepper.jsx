@@ -5,7 +5,7 @@ const CoffeeStepper = () => {
 
     return (
         <div className="w-full px-12 py-4">
-            <div className="relative flex items-center justify-between w-full">
+            <div className="relative flex items-center justify-between w-full gap-10">
                 <div className="absolute left-0 top-2/4 h-0.5 w-[98%] -translate-y-2/4 bg-gray-300"></div>
                 <div className="absolute left-0 top-2/4 h-0.5 w-[98%] -translate-y-2/4 bg-gray-400 transition-all duration-500"></div>
                 <motion.div

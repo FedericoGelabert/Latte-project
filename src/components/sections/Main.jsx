@@ -9,10 +9,10 @@ const Main = () => {
                     <motion.h4 className="text-[5.5rem] leading-10" initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ delay: 0.2 }} variants={xTransition}>
                         Bad times,
                     </motion.h4>
-                    <motion.h2 className="text-[7.5rem]" initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ delay: 0.5 }} variants={xTransition}>
+                    <motion.h2 className="text-[7.5rem]" initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ delay: 0.4 }} variants={xTransition}>
                         Good Coffee
                     </motion.h2>
-                    <motion.p className="text-[1.3rem]" initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ delay: 1.1 }} variants={opacityTransition}>
+                    <motion.p className="text-[1.3rem]" initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ delay: 0.8 }} variants={opacityTransition}>
                         The smell of coffee, of freshly roasted beans, is the best welcome that <br />
                         we plan to offer you every day when we open the doors of our stores.
                     </motion.p>
