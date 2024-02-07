@@ -4,16 +4,12 @@ import CoffeeProcess from "./sections/CoffeeProcess";
 import OurCoffee from "./sections/OurCoffee";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
-import Gallery from "./sections/Gallery";
 import Menu from "./sections/Menu";
 import Quality from "./sections/Quality";
 import Reviews from "./sections/Reviews";
 import Presentation from "./sections/Presentation";
 import BackgroundVideo from '../utils/BackgroundVideo';
 import Header from "./sections/Header";
-import 'swiper/css';
-import 'swiper/css/effect-coverflow';
-import 'swiper/css/pagination';
 
 function App() {
   return (
@@ -40,7 +36,6 @@ function App() {
       </div>
       <Quality/>
       <Menu/>
-      <Gallery/>
       <Contact/>
       <Footer/>
     </div> 

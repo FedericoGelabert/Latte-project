@@ -15,9 +15,6 @@ const Navbar = () => {
                     <a href="#reviews">Reviews</a>
                 </li>
                 <li>
-                    <a href="#gallery">Gallery</a>
-                </li>
-                <li>
                     <a href="#contact">Contact</a>
                 </li>
                 {/* <div className="fastlinks flex items-center">
