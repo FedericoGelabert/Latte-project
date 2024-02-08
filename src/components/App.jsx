@@ -10,6 +10,8 @@ import Reviews from "./sections/Reviews";
 import Presentation from "./sections/Presentation";
 import BackgroundVideo from '../utils/BackgroundVideo';
 import Header from "./sections/Header";
+import Story from "./sections/Story";
+import $ from 'jquery';
 
 function App() {
   return (
@@ -30,6 +32,9 @@ function App() {
       </div>
       <div className="snap-center">
         <Bakery/> 
+      </div>
+      <div className="snap-center">
+        <Story/>
       </div>
       <div className="snap-center">
        <Reviews/>

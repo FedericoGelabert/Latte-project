@@ -13,7 +13,7 @@ const Bakery = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              transition={{ duration: 0.08 }} />
+              transition={{ delay: 0.08 }} />
           </div>
           <div className="w-24 h-6 bg-[rgba(223,219,182,.9)] ml-5 flex justify-center items-center py-4 rounded-b-lg">
             <p className="font-semibold">Macarons</p>
@@ -27,7 +27,7 @@ const Bakery = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              transition={{ duration: 0.16 }} />
+              transition={{ delay: 0.16 }} />
           </div>
           <div className="w-24 h-6 bg-[rgba(223,219,182,.9)] ml-5 flex justify-center items-center py-4 rounded-b-lg">
             <p className="font-semibold ">Apple Pie</p>
@@ -41,7 +41,7 @@ const Bakery = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              transition={{ duration: 0.24 }} />
+              transition={{ delay: 0.24 }} />
           </div>
           <div className="w-24 h-6 bg-[rgba(223,219,182,.9)] ml-5 flex justify-center items-center py-4 rounded-b-lg">
             <p className="font-semibold ">Croissant</p>
@@ -55,7 +55,7 @@ const Bakery = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              transition={{ duration: 0.32 }} />
+              transition={{ delay: 0.32 }} />
           </div>
           <div className="w-24 h-6 bg-[rgba(223,219,182,.9)] ml-5 flex justify-center items-center py-4 rounded-b-lg">
             <p className="font-semibold ">Pudding</p>
@@ -69,7 +69,7 @@ const Bakery = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              transition={{ duration: 0.4 }} />
+              transition={{ delay: 0.4 }} />
           </div>
           <div className="w-[11rem] h-6 bg-[rgba(223,219,182,.9)] ml-5 flex justify-center items-center py-4 rounded-b-lg">
             <p className="font-semibold ">Chocolate Pancake</p>
@@ -83,7 +83,7 @@ const Bakery = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
-              transition={{ duration: 0.48 }} />
+              transition={{ delay: 0.48 }} />
           </div>
           <div className="w-24 h-6 bg-[rgba(223,219,182,.9)] ml-5 flex justify-center items-center py-4 rounded-b-lg">
             <p className="font-semibold ">Sandwich</p>
@@ -91,14 +91,9 @@ const Bakery = () => {
         </div>
       </div>
       <div className="h-[10rem]">
-        <motion.button className="text-white font-bold px-12 py-3 mt-6 border rounded-3xl flex items-center gap-2 hover:bg-[rgba(10,57,52,1)] hover:scale-105 hover:duration-300 transition-all"
-          variants={opacityTransition}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          transition={{ delay: 0.1 }}>
+        <button className="text-white font-bold px-12 py-3 mt-6 border rounded-3xl flex items-center gap-2 hover:bg-[rgba(10,57,52,1)] hover:scale-105 hover:duration-300 transition-all">
           View full menu
-        </motion.button>
+        </button>
       </div>
     </div>
   )
