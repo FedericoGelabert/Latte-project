@@ -9,6 +9,7 @@ This project is undergoing modifications.
 - postcss
 - framer motion
 - swiper
+- jquery
 
 ### Next List
 
