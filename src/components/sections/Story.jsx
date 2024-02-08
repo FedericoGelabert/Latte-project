@@ -5,7 +5,7 @@ import $ from 'jquery';
 
 const Story = () => {
 
-    let words = ["Life", "Essence", "History"]
+    let words = ["Life", "Essence", "Birth"]
     let i = 0;
 
     useEffect(() => {

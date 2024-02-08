@@ -15,22 +15,8 @@ const Navbar = () => {
                     <a href="#story">Story</a>
                 </li>
                 <li>
-                    <a href="#reviews">Reviews</a>
-                </li>
-                <li>
                     <a href="#contact">Contact</a>
                 </li>
-                {/* <div className="fastlinks flex items-center">
-                    <a href="#">
-                        <i class="fa-solid fa-location-dot"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa-brands fa-facebook"></i>
-                    </a>
-                </div> */}
             </ul>
         </div>
     )
