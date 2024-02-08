@@ -20,7 +20,7 @@ const Reviews = () => {
                         <div className="w-full flex items-center">
                             <div className="flex flex-col items-start">
                                 <h5 className="text-2xl">Jamie Waters</h5>
-                                <span className="text-latte-gray text-sm">Boot Café Owner</span>
+                                <span className="text-latte-gray text-sm">Coffee Critic</span>
                             </div>
                         </div>
                         <p className="py-5 text-left" >"I would probably say that this coffee shop is a must for coffee lovers! The service was good, and the variety of coffee served in the ambiance was very satisfying."</p>
@@ -54,7 +54,7 @@ const Reviews = () => {
                                 <i className="fa-solid fa-star"></i>
                                 <i className="fa-solid fa-star"></i>
                                 <i className="fa-solid fa-star"></i>
-                                <i className="fa-solid fa-star-half-stroke"></i>
+                                <i className="fa-solid fa-star"></i>
                             </div>
                         </div>
                     </motion.div>
@@ -71,7 +71,7 @@ const Reviews = () => {
                                 <span className="text-latte-gray text-sm">World Barista Championship</span>
                             </div>
                         </div>
-                        <p className="py-5 text-left" >"Unquestionably, the best coffee shop in the area! The atmosphere inside this coffee shop was very vibrant and relaxing."</p>
+                        <p className="py-5 text-left" >"Unquestionably, the best coffee shop in the area! The atmosphere inside this coffee shop was very vibrant and relaxing. I really enjoyed the experience."</p>
                         <div className="flex">
                             <div>
                                 <i className="fa-solid fa-star"></i>
