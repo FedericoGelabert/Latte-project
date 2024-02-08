@@ -12,7 +12,7 @@ const Reviews = () => {
                             initial="hidden"
                             whileInView="visible"
                             viewport={{ once: true }}
-                            transition={{ delay: 0.2 }}
+                            transition={{ delay: 0.1 }}
                         >
                             <h5 className="text-2xl">Jamie Waters</h5>
                             <span className="text-latte-gray text-sm">Boot Café Owner</span>
@@ -33,7 +33,7 @@ const Reviews = () => {
                             initial="hidden"
                             whileInView="visible"
                             viewport={{ once: true }}
-                            transition={{ delay: 0.35 }}
+                            transition={{ delay: 0.2 }}
                         >
                             <h5 className="text-2xl">Hidenori Izaki</h5>
                             <span className="text-latte-gray text-sm">World Barista Championship</span>
@@ -54,7 +54,7 @@ const Reviews = () => {
                             initial="hidden"
                             whileInView="visible"
                             viewport={{ once: true }}
-                            transition={{ delay: 0.5 }}
+                            transition={{ delay: 0.3 }}
                         >
                             <h5 className="text-2xl">Raul Rodas</h5>
                             <span className="text-latte-gray text-sm">Coffee Expert</span>
