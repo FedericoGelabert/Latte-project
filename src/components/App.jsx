@@ -4,46 +4,45 @@ import CoffeeProcess from "./sections/CoffeeProcess";
 import OurCoffee from "./sections/OurCoffee";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
-import Menu from "./sections/Menu";
-import Quality from "./sections/Quality";
 import Reviews from "./sections/Reviews";
 import Presentation from "./sections/Presentation";
 import BackgroundVideo from '../utils/BackgroundVideo';
 import Header from "./sections/Header";
 import Story from "./sections/Story";
-import $ from 'jquery';
+import Visit from "./sections/Visit";
 
 function App() {
   return (
     <div className="snap-y snap-mandatory relative w-screen h-screen overflow-auto scroll-smooth">
-      <BackgroundVideo/>
-      <Header/>
+      <BackgroundVideo />
+      <Header />
       <div className="snap-center">
-        <Presentation/>
+        <Presentation />
       </div>
       <div className="snap-center">
-        <Main/>
+        <Main />
       </div>
       <div className="snap-center">
-        <CoffeeProcess/>
+        <CoffeeProcess />
       </div>
       <div className="snap-center">
-        <OurCoffee/>
+        <OurCoffee />
       </div>
       <div className="snap-center">
-        <Bakery/> 
+        <Bakery />
       </div>
       <div className="snap-center">
-        <Story/>
+        <Story />
       </div>
       <div className="snap-center">
-       <Reviews/>
+        <Reviews />
       </div>
-      <Quality/>
-      <Menu/>
-      <Contact/>
-      <Footer/>
-    </div> 
+      <div className="snap-center">
+        <Visit />
+      </div>
+      <Contact />
+      <Footer />
+    </div>
   )
 }
 

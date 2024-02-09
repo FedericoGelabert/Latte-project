@@ -7,7 +7,7 @@ const Reviews = () => {
             <div className="w-full h-full flex items-center justify-center flex-col text-white z-30">
                 <div className="bg-[rgba(223,219,182,.9)] mb-24 w-[25rem] pr-24 h-[5rem] flex justify-center items-center rounded-3xl relative">
                     <h2 className="text-gray-700 text-[2.5rem]">Top Reviews</h2>
-                    <img src="cold-coffee.webp" alt="Coffee Shop" className="absolute w-32 ml-96" />
+                    <img src="medal.webp" alt="Coffee Shop" className="absolute w-32 ml-[22rem] mt-6" />
                 </div>
                 <div className="swiper font-ubuntu w-screen h-3/12 flex justify-center items-center text-center relative text-white">
                     <motion.div className="w-3/12 h-[17rem] bg-[rgba(10,57,52,.89)] py-8 rounded-3xl px-8 mx-4 shadow-xl shadow-black"
