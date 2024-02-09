@@ -47,7 +47,7 @@ const Reviews = () => {
                                 <span className="text-latte-gray text-sm">Coffee Expert</span>
                             </div>
                         </div>
-                        <p className="py-5 text-left" >"This coffee shop has it all. The ambiance, interior designs, good coffee, tasty foods, and fast wi-fi connection. It is simply one of the best and my favorites coffee shop in town."</p>
+                        <p className="py-5 text-left" >"This coffee shop has it all. The ambiance, interior designs, good coffee and tasty foods. It is simply one of the best and my favorites coffee shop in town."</p>
                         <div className="flex">
                             <div>
                                 <i className="fa-solid fa-star"></i>
