@@ -10,7 +10,7 @@ const OurCoffee = () => {
           <p className="text-xl pb-10 tracking-normal w-full">
             In our stores we use single-origin coffee beans, carefully selected and roasted to highlight their natural flavors. Our state-of-the-art tools ensure perfect extraction, while our team of experts creates masterpieces in every cup.
           </p>
-          <div className="flex gap-10 justify-center">
+          <div className="flex gap-12 justify-center">
             <div>
               <div className="w-48 h-48 bg-[rgba(223,219,182,.9)] rounded-3xl flex items-center flex-col justify-center gap-5 text-black shadow-xl shadow-black hover:scale-105 transition-all">
                 <motion.img src="milk.webp" alt="Milk" className="w-24"
@@ -22,7 +22,7 @@ const OurCoffee = () => {
               </div>
             </div>
             <div className="w-48 h-48 bg-[rgba(223,219,182,.9)] rounded-3xl flex items-center flex-col justify-center gap-5 text-black shadow-xl shadow-black hover:scale-105 transition-all">
-              <motion.img src="coffee-machine2.webp" alt="Badge" className="w-24"
+              <motion.img src="coffee-machine2.webp" alt="Coffee Machine" className="w-24"
                 variants={opacityTransition}
                 initial="hidden"
                 whileInView="visible"
@@ -31,7 +31,7 @@ const OurCoffee = () => {
               />
             </div>
             <div className="w-48 h-48 bg-[rgba(223,219,182,.9)] rounded-3xl flex items-center flex-col justify-center gap-5 text-black shadow-xl shadow-black hover:scale-105 transition-all">
-              <motion.img src="coffee-bag2.webp" alt="Badge" className="w-[7rem]"
+              <motion.img src="coffee-bag2.webp" alt="Coffee bag" className="w-[7rem]"
                 variants={opacityTransition}
                 initial="hidden"
                 whileInView="visible"

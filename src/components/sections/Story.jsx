@@ -18,10 +18,10 @@ const Story = () => {
     })
 
     return (
-        <div className="w-screen h-screen relative font-ubuntu flex items-center justify-center relative" id="story">
+        <div className="w-screen h-screen relative font-ubuntu flex items-center justify-center" id="story">
             <div className="w-full h-full flex items-center justify-center text-white z-30 relative">
                 <div className="h-full flex items-center justify-center">
-                    <motion.img src="coffee-pot.webp" alt="Logo" className="absolute z-40 left-[13rem] w-[31rem] drop-shadow-2xl -rotate-6"
+                    <motion.img src="coffee-pot.webp" alt="Logo" className="absolute z-40 left-[19rem] w-[31rem] drop-shadow-2xl -rotate-6"
                         variants={opacityTransition}
                         initial="hidden"
                         whileInView="visible"
