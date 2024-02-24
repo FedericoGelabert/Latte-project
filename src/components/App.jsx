@@ -10,6 +10,7 @@ import BackgroundVideo from '../utils/BackgroundVideo';
 import Header from "./sections/Header";
 import Story from "./sections/Story";
 import Visit from "./sections/Visit";
+import Order from "./sections/Order";
 
 function App() {
   return (
@@ -40,8 +41,10 @@ function App() {
       <div className="snap-center">
         <Visit />
       </div>
+      <div className="snap-center">
+        <Order />
+      </div>
       <Contact />
-      <Footer />
     </div>
   )
 }

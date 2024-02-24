@@ -45,8 +45,18 @@ body {
   color: rgba(255, 255, 0, 0.993);
 }
 
-.bakery-table td {
-  font-size: 1.4em;
-  padding-bottom: 15px;
-  width: 280px;
+.hide {
+  display: none;
+}
+
+.show {
+  display: inline-block;
+}
+
+.lattePremiumMemberAround {
+  justify-items: space-around;
+}
+
+.lattePremiumMemberStart {
+  justify-items: flex-start;
 }
