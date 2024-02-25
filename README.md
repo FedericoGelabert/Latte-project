@@ -18,6 +18,8 @@ This project is undergoing modifications.
 - [ ] Make sound and mute icons functional.
 - [ ] Finish all sections.
 - [ ] Optimize images.
+- [ ] Order flow.
+- [ ] Responsive design.
 
 ### Installation
 
