@@ -37,7 +37,7 @@ const Story = () => {
                                 Their slogan, "Bad times, good coffee," embodied their belief that amidst adversity, a comforting cup of coffee could bring solace and hope.
                                 Today, Latte stands as a symbol of resilience, serving not just coffee but a reminder that even in tough times, there's always comfort in a warm brew.
                             </p>
-                            <button className="text-black font-medium px-12 py-3 bg-[rgba(10,57,52,1)] text-white rounded-3xl flex items-center hover:bg-[rgba(223,219,182,.9)] hover:border hover:border-black  hover:text-black hover:scale-105 hover:duration-300 transition-all">
+                            <button className="font-medium px-12 py-3 bg-[rgba(10,57,52,1)] text-white rounded-3xl flex items-center hover:bg-[rgba(223,219,182,.9)] hover:border hover:border-black  hover:text-black hover:scale-105 hover:duration-300 transition-all">
                                 Learn more about our story
                             </button>
                         </div>
