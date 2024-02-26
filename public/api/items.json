@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "name": "Latte ®",
+        "alt": "Latte ®",
+        "src": "coffee2-order.webp"
+    },
+    {
+        "id": "2",
+        "name": "Cold Latte ®",
+        "alt": "Cold Latte ®",
+        "src": "cold-coffee2.webp"
+    },
+    {
+        "id": "3",
+        "name": "Choco Latte ®",
+        "alt": "Choco Latte ®",
+        "src": "choco-latte.webp"
+    },
+    {
+        "id": "4",
+        "name": "x4 Latte ®",
+        "alt": "x4 Latte ®",
+        "src": "four-coffee.webp"
+    },
+    {
+        "id": "5",
+        "name": "Macarons ®",
+        "alt": "Macarons ®",
+        "src": "macarons.webp"
+    }, 
+    {
+        "id": "6",
+        "name": "Apple Pie ®",
+        "alt": "Apple Pie ®",
+        "src": "apple-pie.webp"
+    },
+    {
+        "id": "7",
+        "name": "Croissant ®",
+        "alt": "Croissant ®",
+        "src": "croissant.webp"
+    },
+    {
+        "id": "8",
+        "name": "Pudding ®",
+        "alt": "Pudding ®",
+        "src": "pudding.webp"
+    },
+    {
+        "id": "9",
+        "name": "Pancake ®",
+        "alt": "Pancake ®",
+        "src": "chocolate-pancake.webp"
+    },
+    {
+        "id": "10",
+        "name": "Sandwich ®",
+        "alt": "Sandwich ®",
+        "src": "sandwich.webp"
+    }
+]
