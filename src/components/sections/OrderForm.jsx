@@ -2,20 +2,16 @@ import { useEffect, useState } from "react"
 const latteIdInput = document.getElementById('latteIdInput')
 
 
-const OrderForm = ({ index }) => {
+const OrderForm = () => {
 
     const [latteId, activeLatteId] = useState(false)
     const [items, setItems] = useState([])
     let [itemsSelected, setItemsSelected] = useState([])
 
     const functionLatteId = () => {
-        if (latteId == false) {
-            latteIdInput.classList.add('show')
-            latteIdInput.classList.remove('hide')
+        if(latteId === false) {
             activeLatteId(true)
-        } else if (latteId == true) {
-            latteIdInput.classList.add('hide')
-            latteIdInput.classList.remove('show')
+        } else {
             activeLatteId(false)
         }
     }
@@ -65,13 +61,18 @@ return (
                             <input type="checkbox" className="w-4 h-4 accent-[rgba(223,219,182,.9)] " onClick={functionLatteId} />
                             <p className="inline p-3">I'm a Latte premium member.</p>
                         </div>
-                        <input type="password" placeholder="Latte ID" className="p-3 bg-inherit border-b-2 w-[10rem] hide focus:bg-[#f3f3ed] focus:text-black" maxLength={6} id="latteIdInput" />
+                        {
+                            latteId ?
+                            <input type="password" placeholder="Latte ID" className="p-3 bg-inherit border-b-2 w-[10rem] focus:bg-[#f3f3ed] focus:text-black" maxLength={6} id="latteIdInput" />
+                            :
+                            ""
+                        }
                     </div>
                     <p className="mt-2 ml-4">All available products</p>
                     <div className="w-full h-[9.8rem] flex rounded-t-lg border-2 border-white overflow-auto overflow-y-hidden ">
                         <div className="flex">
                             <div className="flex">
-                                {items.map((item, i) => {
+                                {items.map((item) => {
                                     return (
                                         <div className="bg-[rgba(223,219,182,.9)] min-w-[8rem] h-[7.6rem] m-2 rounded-2xl text-black p-2 flex flex-col items-center justify-center cursor-pointer hover:border-2 border-white" data-name={item.name} data-src={item.src} data-alt={item.alt} id="item" key={item.id} onClick={addItem}>
                                             <div className="w-16 flex justify-center h-[70%]" data-name={item.name} data-src={item.src} data-alt={item.alt} >
