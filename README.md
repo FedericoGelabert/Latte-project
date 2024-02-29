@@ -10,7 +10,7 @@ This project is undergoing modifications.
 - framer motion
 - jquery
 
-### Next List
+### To-do List
 
 - [x] Create a new logo and add it.
 - [ ] Hide header until Main Layout.
