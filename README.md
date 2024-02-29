@@ -20,6 +20,7 @@ This project is undergoing modifications.
 - [ ] Optimize images.
 - [ ] Order flow.
 - [ ] Responsive design.
+- [ ] Add more products.
 
 ### Installation
 
