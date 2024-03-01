@@ -5,11 +5,8 @@ const Header = () => {
     return (
             <div className="flex justify-center h-[10vh] px-20 z-50 sticky top-0 left-0" id="header">
                 <div className="container flex justify-center items-center text-white">
-                    <img src="logo-green.png" alt="Logo" className="w-[4rem] absolute left-0 ml-[4.5rem]" />
+                    <img src="logo-green.webp" alt="Logo" className="w-[4rem] absolute left-0 ml-[4.5rem]" />
                     <div className="font-semibold text-2xl" initial={{ x: -100, opacity: 0 }} animate={{ x: 0, opacity: 1 }}>
-                        {/* <a href="#header">
-                        <img src="https://res.cloudinary.com/federicog/image/upload/v1678910074/Latte/latte-logo_ufoxy6.png" alt="Latte logo" className="w-28 h-10" />
-                    </a> */}
                     </div>
                     <Navbar />
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-8 h-8 absolute right-0 mr-[4.5rem]">

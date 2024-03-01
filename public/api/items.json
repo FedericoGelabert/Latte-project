@@ -58,5 +58,47 @@
         "name": "Sandwich ®",
         "alt": "Sandwich ®",
         "src": "sandwich.webp"
+    },
+    {
+        "id": "11",
+        "name": "Cake ®",
+        "alt": "Cake ®",
+        "src": "cake.webp"
+    },
+    {
+        "id": "12",
+        "name": "Donut ®",
+        "alt": "Choco Donut ®",
+        "src": "choco-donut.webp"
+    },
+    {
+        "id": "13",
+        "name": "Donut ®",
+        "alt": "Homer Donut ®",
+        "src": "homer-donut.webp"
+    },
+    {
+        "id": "14",
+        "name": "Choco Pie ®",
+        "alt": "Choco Pie ®",
+        "src": "choco-pie.webp"
+    },
+    {
+        "id": "15",
+        "name": "Pudding ®",
+        "alt": "Pudding ®",
+        "src": "pudding2.webp"
+    },
+    {
+        "id": "16",
+        "name": "Waffle ®",
+        "alt": "Waffle ®",
+        "src": "waffle.webp"
+    },
+    {
+        "id": "17",
+        "name": "Pudding ®",
+        "alt": "Pudding ®",
+        "src": "pudding3.webp"
     }
 ]
