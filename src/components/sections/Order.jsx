@@ -32,11 +32,10 @@ const Order = () => {
               transition={{ delay: 0.3 }}
             />
             <div className="px-16 py-8 bg-[rgba(10,57,52,.89)] w-7/12 h-[18rem] rounded-3xl relative shadow-xl shadow-black">
-              <h2 className="text-latte-gray text-[2.5rem] mb-3">Enjoy our coffee!</h2>
+              <h2 className="text-latte-gray text-[2.5rem] mb-6">Enjoy our coffee!</h2>
               <p className="text-xl tracking-normal w-full">
                 Welcome to our Order Section, where your coffee journey begins with a click. Explore our diverse range of meticulously curated coffee blends, crafted from the world's finest beans.
                 Choose from our selection of single-origin delights, carefully roasted to perfection. Add artisanal bakery treats to complement your coffee experience.
-                With easy navigation and secure transactions, indulge in the convenience of ordering your favorite brews and treats online.
               </p>
             </div>
             <div className="flex gap-8 w-full justify-center">

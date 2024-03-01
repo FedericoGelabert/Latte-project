@@ -5,9 +5,10 @@ const OrderEmail = () => {
     const [status, setStatus] = useState(false)
 
     let phrases = [
-        "Extracting the inherent goodness, enhancing quality and purity for maximum value.",
-        "Culmination in preservation, as the perfected product is carefully packed for freshness and quality maintenance.",
-        "From package to plate, ready for consumption, ensuring a delightful and satisfying experience."
+        "Enhancing quality and purity for maximum value.",
+        "Crafting a symphony of aromas and textures.",
+        "Ensuring a delightful and satisfying experience.",
+        ""
     ];
     let i = 0;
 
@@ -17,7 +18,7 @@ const OrderEmail = () => {
             $('#processStatus').fadeOut(function () {
                 $(this).html(phrases[i]).fadeIn();
                 i++;
-                // functionSendEmail()
+                functionSendEmail()
             });
         }, 6000)
     })
@@ -30,13 +31,21 @@ const OrderEmail = () => {
 
 
     return (
-        <div>
+        <div className='w-screen flex justify-center'>
             {
-                status ? "" :
-                    <div className="flex flex-col mb-32 w-full items-center">
-                        <img src="coffee-shop.webp" alt="Latte Building" className='w-[32rem]' />
-                        <div className='mt-12'>
-                            <p id="processStatus" className="text-white">Seeds planted with precision, initiating the journey from soil to harvest.</p>
+                status ?
+                    <div className="flex flex-col justify-center w-4/12 h-[12rem] items-center bg-[rgba(10,57,52,.89)] text-center rounded-3xl relative shadow-xl shadow-black">
+                        <img src="email.webp" alt="Email sent" className='absolute w-32 mb-[12rem]' />
+                        <div className='mt-8 px-12'>
+                            <p className="text-white text-[1.1rem]">We just sent you an email.</p>
+                            <span className='text-gray-500'>Check SPAM inbox.</span>
+                        </div>
+                    </div>
+                    :
+                    <div className="flex flex-col justify-center w-4/12 h-[12rem] items-center bg-[rgba(10,57,52,.89)] text-center rounded-3xl relative shadow-xl shadow-black">
+                        <img src="loading.gif" alt="Loader" className='w-12 h-12' />
+                        <div className='mt-3 px-12'>
+                            <p id="processStatus" className="text-white text-[1.1rem]">Initiating the journey from soil to harvest.</p>
                         </div>
                     </div>
             }

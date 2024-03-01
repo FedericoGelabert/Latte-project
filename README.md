@@ -13,12 +13,12 @@ This project is undergoing modifications.
 ### To-do List
 
 - [x] Create a new logo and add it.
+- [x] Order flow.
 - [ ] Hide header until Main Layout.
 - [ ] Add an arrow animation on Presentation Layout.
 - [ ] Make sound and mute icons functional.
 - [ ] Finish all sections.
 - [ ] Optimize images.
-- [ ] Order flow.
 - [ ] Responsive design.
 - [ ] Add more products.
 

@@ -131,7 +131,7 @@ const OrderForm = () => {
                                         </div>
                                         {/* <p className="text-gray-400">Add a product by clicking on it.</p> */}
                                     </div>
-                                    <div className="w-full flex justify-center items-center mt-2 flex-col">
+                                    <div className="w-full flex justify-center items-center mt-2 flex-col text-center">
                                         <p className="text-xs text-red-500">* By submitting this form you will recieve an email with your selected products, a link to enter your personal address and the checkout.</p>
                                         <button type="submit" disabled={valEmail} className="w-6/12 text-white font-bold px-12 py-3 mt-3 border-2 rounded-3xl hover:bg-[rgba(10,57,52,1)] hover:scale-105 hover:duration-300 transition-all" onClick={goOrderEmail}>Order Now</button>
                                     </div>
