@@ -14,13 +14,13 @@ This project is undergoing modifications.
 
 - [x] Create a new logo and add it.
 - [x] Order flow.
+- [x] Add more products.
+- [x] Optimize images.
 - [ ] Hide header until Main Layout.
 - [ ] Add an arrow animation on Presentation Layout.
 - [ ] Make sound and mute icons functional.
 - [ ] Finish all sections.
-- [ ] Optimize images.
 - [ ] Responsive design.
-- [ ] Add more products.
 
 ### Installation
 
