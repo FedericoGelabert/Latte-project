@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 import OrderEmail from "./OrderEmail"
-const latteIdInput = document.getElementById('latteIdInput')
+import { motion } from "framer-motion";
+import { opacityTransition } from "../../utils/transitions";
 
 
 const OrderForm = () => {
@@ -27,12 +28,12 @@ const OrderForm = () => {
 
     const validateEmail = (e) => {
 
-        if(e.target.value.includes("@")) {
+        if (e.target.value.includes("@")) {
             setValEmail(false)
         } else {
             setValEmail(true)
         }
-        
+
     }
 
     const addItem = (item) => {
@@ -68,7 +69,13 @@ const OrderForm = () => {
                     <div>
                         <OrderEmail />
                     </div> :
-                    <div className="w-screen h-screen relative font-ubuntu flex items-center justify-center" id="orderForm">
+                    <motion.div className="w-screen h-screen relative font-ubuntu flex items-center justify-center" id="orderForm"
+                        variants={opacityTransition}
+                        initial="hidden"
+                        whileInView="visible"
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.05 }}
+                    >
                         <div className="w-full h-full flex items-center justify-center flex-col text-white z-30">
                             <div className="px-16 mt-12 bg-[rgba(10,57,52,.89)] w-6/12 h-[82%] rounded-3xl relative shadow-xl shadow-black">
                                 <form>
@@ -138,7 +145,7 @@ const OrderForm = () => {
                                 </form>
                             </div>
                         </div>
-                    </div>
+                    </motion.div>
             }
         </div>
     )

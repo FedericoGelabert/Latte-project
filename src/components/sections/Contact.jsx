@@ -38,7 +38,13 @@ const Contact = () => {
             <p className='text-gray-600'>+52 543 154 2011</p>
             <p className='text-gray-600'>+52 338 153 2010</p>
           </div>
-          <img src="logo-green.webp" alt="Logo" className="w-[10rem]" />
+          <motion.img src="logo-green.webp" alt="Logo" className="w-[10rem]"
+            variants={opacityTransition}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }}
+          />
           <div className='px-12 text-end'>
             <p className="text-gray-500 text-md">Uruguay Store</p>
             <p className="text-black text-[1.1rem]">Customer Support</p>
@@ -48,18 +54,42 @@ const Contact = () => {
           </div>
         </div>
         <div className="mt-12 flex gap-6">
-          <a href="#">
+          <motion.a href="#"
+            variants={opacityTransition}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ delay: 0.05 }}
+          >
             <i className="text-white fa-brands fa-facebook text-3xl hover:scale-110"></i>
-          </a>
-          <a href="#">
+          </motion.a>
+          <motion.a href="#"
+            variants={opacityTransition}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }}
+          >
             <i className="text-white fa-brands fa-twitter text-3xl hover:scale-110"></i>
-          </a>
-          <a href="#">
+          </motion.a>
+          <motion.a href="#"
+            variants={opacityTransition}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ delay: 0.15 }}
+          >
             <i className="text-white fa-brands fa-whatsapp text-3xl hover:scale-110"></i>
-          </a>
-          <a href="#">
+          </motion.a>
+          <motion.a href="#"
+            variants={opacityTransition}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
+          >
             <i class="text-white fa-brands fa-instagram text-3xl hover:scale-110"></i>
-          </a>
+          </motion.a>
         </div>
       </div>
     </div>
