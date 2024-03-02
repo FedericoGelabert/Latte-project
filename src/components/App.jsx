@@ -3,7 +3,6 @@ import Bakery from "./sections/Bakery";
 import CoffeeProcess from "./sections/CoffeeProcess";
 import OurCoffee from "./sections/OurCoffee";
 import Contact from "./sections/Contact";
-import Footer from "./sections/Footer";
 import Reviews from "./sections/Reviews";
 import Presentation from "./sections/Presentation";
 import BackgroundVideo from '../utils/BackgroundVideo';
@@ -44,7 +43,9 @@ function App() {
       <div className="snap-center">
         <Order />
       </div>
+      <div className="snap-center">
       <Contact />
+      </div>
     </div>
   )
 }

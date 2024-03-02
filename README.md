@@ -16,10 +16,10 @@ This project is undergoing modifications.
 - [x] Order flow.
 - [x] Add more products.
 - [x] Optimize images.
+- [x] Finish all sections.
 - [ ] Hide header until Main Layout.
 - [ ] Add an arrow animation on Presentation Layout.
 - [ ] Make sound and mute icons functional.
-- [ ] Finish all sections.
 - [ ] Responsive design.
 
 ### Installation
