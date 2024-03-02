@@ -88,7 +88,7 @@ const Contact = () => {
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
           >
-            <i class="text-white fa-brands fa-instagram text-3xl hover:scale-110"></i>
+            <i className="text-white fa-brands fa-instagram text-3xl hover:scale-110"></i>
           </motion.a>
         </div>
       </div>

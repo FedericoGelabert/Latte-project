@@ -17,10 +17,9 @@ This project is undergoing modifications.
 - [x] Add more products.
 - [x] Optimize images.
 - [x] Finish all sections.
-- [ ] Hide header until Main Layout.
-- [ ] Add an arrow animation on Presentation Layout.
-- [ ] Make sound and mute icons functional.
+- [x] Make sound and mute icons functional.
 - [ ] Responsive design.
+- [ ] Send emails function.
 
 ### Installation
 
