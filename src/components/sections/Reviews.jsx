@@ -10,7 +10,7 @@ const Reviews = () => {
                     <img src="medal.webp" alt="Coffee Shop" className="absolute w-32 ml-[22rem] mt-6" />
                 </div>
                 <div className="swiper font-ubuntu w-screen h-3/12 flex justify-center items-center text-center relative text-white">
-                    <motion.div className="w-3/12 h-[17rem] bg-[rgba(10,57,52,.89)] py-8 rounded-3xl px-8 mx-4 shadow-xl shadow-black"
+                    <motion.div className="w-[30rem] h-[17rem] bg-[rgba(10,57,52,.89)] py-8 rounded-3xl px-8 mx-4 shadow-xl shadow-black"
                         variants={yTransition}
                         initial="hidden"
                         whileInView="visible"
@@ -34,7 +34,7 @@ const Reviews = () => {
                             </div>
                         </div>
                     </motion.div>
-                    <motion.div className="w-3/12 h-[17rem] bg-[rgba(10,57,52,.89)] py-8 rounded-3xl px-8 mx-4 shadow-xl shadow-black"
+                    <motion.div className="w-[30rem] h-[17rem] bg-[rgba(10,57,52,.89)] py-8 rounded-3xl px-8 mx-4 shadow-xl shadow-black"
                         variants={yTransition}
                         initial="hidden"
                         whileInView="visible"
@@ -58,7 +58,7 @@ const Reviews = () => {
                             </div>
                         </div>
                     </motion.div>
-                    <motion.div className="w-3/12 h-[17rem] bg-[rgba(10,57,52,.89)] py-8 rounded-3xl px-8 mx-4 shadow-xl shadow-black"
+                    <motion.div className="w-[30rem] h-[17rem] bg-[rgba(10,57,52,.89)] py-8 rounded-3xl px-8 mx-4 shadow-xl shadow-black"
                         variants={yTransition}
                         initial="hidden"
                         whileInView="visible"

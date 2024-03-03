@@ -18,6 +18,7 @@ const Header = () => {
 
     }
 
+
     return (
         <div className="flex justify-center h-[10vh] px-20 z-50 sticky top-0 left-0" id="header">
             <audio src="/coffee-jazz-music.mp3" id="audio"></audio>
@@ -26,7 +27,7 @@ const Header = () => {
                 <div className="font-semibold text-2xl" initial={{ x: -100, opacity: 0 }} animate={{ x: 0, opacity: 1 }}>
                 </div>
                 <Navbar />
-                <div onClick={audioFunction}>
+                <div onClick={audioFunction} className="flex h-full items-center">
                     {
                         audioStatus ?
                             <svg id="audioNotMuted" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-8 h-8 absolute right-0 mr-[7rem]">

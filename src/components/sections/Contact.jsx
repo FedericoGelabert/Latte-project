@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { yTransition, opacityTransition } from "../../utils/transitions";
+import { opacityTransition } from "../../utils/transitions";
 
 const Contact = () => {
   return (
@@ -12,7 +12,7 @@ const Contact = () => {
           viewport={{ once: true }}
           transition={{ delay: 0.1 }}
         />
-        <div className="flex justify-between w-5/12 h-[12rem] items-start py-12 bg-[rgba(223,219,182,.9)] rounded-3xl relative shadow-xl shadow-black mb-6 mt-48">
+        <div className="flex justify-between w-[50rem] h-[12rem] items-start py-12 bg-[rgba(223,219,182,.9)] rounded-3xl relative shadow-xl shadow-black mb-6 mt-48">
           <div className='px-12'>
             <p className="text-black text-[1.1rem]">Contact Us</p>
             <p className='text-gray-600'>info@latte.com</p>
@@ -30,7 +30,7 @@ const Contact = () => {
             <p className='text-gray-600'>reserve@latte.com</p>
           </div>
         </div>
-        <div className="flex justify-between w-5/12 h-[12rem] items-center bg-[rgba(223,219,182,.9)] rounded-3xl relative shadow-xl shadow-black">
+        <div className="flex justify-between w-[50rem] h-[12rem] items-center bg-[rgba(223,219,182,.9)] rounded-3xl relative shadow-xl shadow-black">
           <div className='px-12'>
             <p className="text-gray-500 text-md">Mexico Store</p>
             <p className="text-black text-[1.1rem]">Customer Support</p>

@@ -23,15 +23,8 @@ const Order = () => {
             <OrderForm />
           </div>
           :
-          <div className="w-full h-full items-center justify-center flex flex-col text-white z-40 gap-10 mt-24 z-60" id="orderMain">
-            <motion.img src="four-coffee.webp" alt="Four coffee" className="absolute w-56 z-50 top-0 ml-[40rem] mt-24"
-              variants={opacityTransition}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true }}
-              transition={{ delay: 0.3 }}
-            />
-            <div className="px-16 py-8 bg-[rgba(10,57,52,.89)] w-7/12 h-[18rem] rounded-3xl relative shadow-xl shadow-black">
+          <div className="w-full h-full items-center justify-center flex flex-col text-white z-40 gap-10 mt-24 z-60 relative" id="orderMain">
+            <div className="px-16 py-8 bg-[rgba(10,57,52,.89)] w-[70rem] h-[18rem] rounded-3xl relative shadow-xl shadow-black">
               <h2 className="text-latte-gray text-[2.5rem] mb-6">Enjoy our coffee!</h2>
               <p className="text-xl tracking-normal w-full">
                 Welcome to our Order Section, where your coffee journey begins with a click. Explore our diverse range of meticulously curated coffee blends, crafted from the world's finest beans.

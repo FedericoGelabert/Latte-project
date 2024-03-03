@@ -3,7 +3,6 @@ import OrderEmail from "./OrderEmail"
 import { motion } from "framer-motion";
 import { opacityTransition } from "../../utils/transitions";
 
-
 const OrderForm = () => {
 
     const [latteId, activeLatteId] = useState(false)
