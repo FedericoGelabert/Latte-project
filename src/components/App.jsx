@@ -13,7 +13,7 @@ import Order from "./sections/Order";
 
 function App() {
   return (
-    <div className="snap-y snap-mandatory relative w-screen h-screen overflow-auto scroll-smooth">
+    <div className="xl:snap-y xl:snap-mandatory relative w-screen h-screen xl:overflow-auto scroll-smooth">
       <BackgroundVideo />
       <Header />
       <div className="snap-center">

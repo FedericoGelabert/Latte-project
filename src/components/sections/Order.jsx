@@ -16,7 +16,7 @@ const Order = () => {
 
 
   return (
-    <div className="w-screen h-screen relative font-ubuntu flex flex-col items-center justify-center" id="order">
+    <div className="xl:w-screen xl:h-screen relative font-ubuntu flex flex-col items-center justify-center" id="order">
       {
         orderForm ?
           <div id="orderForm">
@@ -24,15 +24,15 @@ const Order = () => {
           </div>
           :
           <div className="w-full h-full items-center justify-center flex flex-col text-white z-40 gap-10 mt-24 z-60 relative" id="orderMain">
-            <div className="px-16 py-8 bg-[rgba(10,57,52,.89)] w-[70rem] h-[18rem] rounded-3xl relative shadow-xl shadow-black">
-              <h2 className="text-latte-gray text-[2.5rem] mb-6">Enjoy our coffee!</h2>
+            <div className="px-16 py-8 bg-[rgba(10,57,52,.89)] w-11/12 xl:w-[60rem] 3xl:w-[70rem] xl:h-[16rem] 3xl:h-[18rem] rounded-3xl relative shadow-xl shadow-black">
+              <h2 className="text-latte-gray 3xl:text-[2.5rem] 2xl:text-[2rem] mb-6">Enjoy our coffee!</h2>
               <p className="text-xl tracking-normal w-full">
                 Welcome to our Order Section, where your coffee journey begins with a click. Explore our diverse range of meticulously curated coffee blends, crafted from the world's finest beans.
                 Choose from our selection of single-origin delights, carefully roasted to perfection. Add artisanal bakery treats to complement your coffee experience.
               </p>
             </div>
-            <div className="flex gap-8 w-full justify-center">
-              <motion.div className="px-12 py-8 bg-[rgba(223,219,182,.9)] w-[22rem] h-[16rem] rounded-3xl relative shadow-xl shadow-black"
+            <div className="flex gap-8 w-full justify-center flex-wrap">
+              <motion.div className="px-12 py-8 bg-[rgba(223,219,182,.9)] w-[29rem] 3xl:w-[22rem] 3xl:h-[16rem] h-[14rem] rounded-3xl relative shadow-xl shadow-black"
                 variants={opacityTransition}
                 initial="hidden"
                 whileInView="visible"
@@ -47,7 +47,7 @@ const Order = () => {
                   Our commitment extends beyond borders, offering a seamless and reliable international shipping service for our premium coffee.
                 </p>
               </motion.div>
-              <motion.div className="px-12 py-8 bg-[rgba(223,219,182,.9)] w-[22rem] h-[16rem] rounded-3xl relative shadow-xl shadow-black"
+              <motion.div className="px-12 py-8 bg-[rgba(223,219,182,.9)] w-[29rem] 3xl:w-[22rem] 3xl:h-[16rem] h-[14rem] rounded-3xl relative shadow-xl shadow-black"
                 variants={opacityTransition}
                 initial="hidden"
                 whileInView="visible"
@@ -62,7 +62,7 @@ const Order = () => {
                   Our coffee products are crafted to be versatile, accommodating various brewing methods and environments to ensure your satisfaction on the go.
                 </p>
               </motion.div>
-              <motion.div className="px-12 py-8 bg-[rgba(223,219,182,.9)] w-[22rem] h-[16rem] rounded-3xl relative shadow-xl shadow-black"
+              <motion.div className="px-12 py-8 bg-[rgba(223,219,182,.9)] hidden h-[16rem] rounded-3xl relative shadow-xl shadow-black 3xl:inline-block 3xl:w-[22rem]"
                 variants={opacityTransition}
                 initial="hidden"
                 whileInView="visible"

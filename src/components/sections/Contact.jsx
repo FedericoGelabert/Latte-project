@@ -3,9 +3,9 @@ import { opacityTransition } from "../../utils/transitions";
 
 const Contact = () => {
   return (
-    <div className="w-screen h-screen relative font-ubuntu " id="contact">
-      <div className="w-full h-full flex items-center flex-col justify-center">
-        <motion.img src="coffee-shop.webp" alt="Coffee Shop" className="absolute w-[30rem] drop-shadow-2xl mb-[30rem] z-50"
+    <div className="xl:w-screen xl:h-screen relative font-ubuntu" id="contact">
+      <div className="w-full h-full flex items-center flex-col justify-center 3xl:pt-20 pt-10">
+        <motion.img src="coffee-shop.webp" alt="Coffee Shop" className="absolute 3xl:w-[30rem] 2xl:w-[22rem] w-[22rem] drop-shadow-2xl 3xl:mb-[30rem] 2xl:mb-[26rem] mb-[26rem] z-50"
           variants={opacityTransition}
           initial="hidden"
           whileInView="visible"

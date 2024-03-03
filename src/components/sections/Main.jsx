@@ -4,7 +4,7 @@ import { xTransition, opacityTransition } from "../../utils/transitions";
 
 const Main = () => {
     return (
-            <div className="w-screen h-screen relative font-ubuntu flex items-center" id="home">
+            <div className="xl:w-screen xl:h-screen relative font-ubuntu flex items-center" id="home">
                 <div className="flex items-start justify-center flex-col text-white absolute z-30 pl-20">
                     <motion.h4 className="text-[5.5rem] leading-10" initial="hidden" whileInView="visible" viewport={{ once: true }} transition={{ delay: 0.2 }} variants={xTransition}>
                         Bad times,

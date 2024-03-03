@@ -68,7 +68,7 @@ const OrderForm = () => {
                     <div>
                         <OrderEmail />
                     </div> :
-                    <motion.div className="w-screen h-screen relative font-ubuntu flex items-center justify-center" id="orderForm"
+                    <motion.div className="xl:w-screen xl:h-screen relative font-ubuntu flex items-center justify-center" id="orderForm"
                         variants={opacityTransition}
                         initial="hidden"
                         whileInView="visible"
@@ -76,7 +76,7 @@ const OrderForm = () => {
                         transition={{ delay: 0.05 }}
                     >
                         <div className="w-full h-full flex items-center justify-center flex-col text-white z-30">
-                            <div className="px-16 mt-12 bg-[rgba(10,57,52,.89)] w-6/12 h-[82%] rounded-3xl relative shadow-xl shadow-black">
+                            <div className="px-16 mt-12 bg-[rgba(10,57,52,.89)] w-6/12 pb-12 rounded-3xl relative shadow-xl shadow-black">
                                 <form>
                                     <h2 className="text-latte-gray text-[2.5rem] mb-5 mt-10">Order Form</h2>
                                     <div className="w-full flex justify-around">

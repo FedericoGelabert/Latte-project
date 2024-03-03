@@ -16,6 +16,12 @@ export default {
         'latte-gray': 'rgba(220, 213, 213, 0.649)'
       }
     },
+    screens: {
+      '3xl': '1850px',
+      '2xl': '1536px',
+      '1.5xl': '1440px',
+      'xl': '1280px'
+    }
   },
   plugins: [],
 }
