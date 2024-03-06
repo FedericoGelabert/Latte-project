@@ -3,35 +3,52 @@ import { opacityTransition } from "../../utils/transitions";
 
 const Contact = () => {
   return (
-    <div className="xl:w-screen xl:h-screen relative font-ubuntu" id="contact">
+    <div className="w-screen h-screen relative font-ubuntu pt-[40rem] lg:pt-[10rem]" id="contact">
       <div className="w-full h-full flex items-center flex-col justify-center 3xl:pt-20 pt-10">
-        <motion.img src="coffee-shop.webp" alt="Coffee Shop" className="absolute 3xl:w-[30rem] 2xl:w-[22rem] w-[22rem] drop-shadow-2xl 3xl:mb-[30rem] 2xl:mb-[26rem] mb-[26rem] z-50"
+        <motion.img src="coffee-shop.webp" alt="Coffee Shop" className="absolute 3xl:w-[30rem] 2xl:w-[22rem] sm:w-[22rem] w-[20rem] drop-shadow-2xl 2xl:mb-[30rem] lg:mb-[34rem] sm:mb-[69rem] mb-[73rem] z-50"
           variants={opacityTransition}
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
           transition={{ delay: 0.1 }}
         />
-        <div className="flex justify-between w-[50rem] h-[12rem] items-start py-12 bg-[rgba(223,219,182,.9)] rounded-3xl relative shadow-xl shadow-black mb-6 mt-48">
-          <div className='px-12'>
-            <p className="text-black text-[1.1rem]">Contact Us</p>
-            <p className='text-gray-600'>info@latte.com</p>
-            <p className='text-gray-600'>ideas@latte.com</p>
-            <p className='text-gray-600'>issues@latte.com</p>
+        <div className="flex sm:justify-between justify-center lg:w-[50rem] sm:w-[30rem] w-11/12 h-[12rem] sm:items-start items-center py-12 bg-[rgba(223,219,182,.9)] rounded-3xl relative shadow-xl shadow-black mb-6 mt-48">
+          <div className='sm:px-12 w-6/12'>
+            <p className="text-black lg:text-[1.1rem] text-[0rem]">Contact Us</p>
+            <p className='text-gray-600 lg:text-[1rem] text-[0rem]'>info@latte.com</p>
+            <p className='text-gray-600 lg:text-[1rem] text-[0rem]'>ideas@latte.com</p>
+            <p className='text-gray-600 lg:text-[1rem] text-[0rem]'>issues@latte.com</p>
           </div>
-          <div className='px-12 max-w-[20rem] text-center'>
+          <div className='lg:px-12 sm:px-6 px-0 max-w-[20rem] text-center'>
             <p className="text-black text-[1.1rem]">Visit Us</p>
             <p className='text-gray-600'>Our stores are open from 8am to 21pm. We make events on special days.</p>
           </div>
           <div className='px-12 text-end'>
-            <p className="text-black text-[1.1rem]">Contact Us</p>
-            <p className='text-gray-600'>work@latte.com</p>
-            <p className='text-gray-600'>letter@latte.com</p>
-            <p className='text-gray-600'>reserve@latte.com</p>
+            <p className="text-black lg:text-[1.1rem] text-[0rem]">Contact Us</p>
+            <p className='text-gray-600 lg:text-[1rem] text-[0rem]'>work@latte.com</p>
+            <p className='text-gray-600 lg:text-[1rem] text-[0rem]'>letter@latte.com</p>
+            <p className='text-gray-600 lg:text-[1rem] text-[0rem]'>reserve@latte.com</p>
           </div>
         </div>
-        <div className="flex justify-between w-[50rem] h-[12rem] items-center bg-[rgba(223,219,182,.9)] rounded-3xl relative shadow-xl shadow-black">
-          <div className='px-12'>
+        <div className="flex sm:flex-row flex-col justify-between items-center lg:w-[0rem] sm:w-[30rem] w-11/12 sm:h-[12rem] lg:h-[0rem] sm:items-start lg:py-0 py-12 bg-[rgba(223,219,182,.9)] rounded-3xl relative shadow-xl shadow-black mb-6">
+          <div className='px-12 sm:text-start text-center'>
+            <p className="text-black text-[1.1rem] lg:text-[0rem]">Contact Us</p>
+            <p className='text-gray-600 text-[1rem] lg:text-[0rem]'>info@latte.com</p>
+            <p className='text-gray-600 text-[1rem] lg:text-[0rem]'>ideas@latte.com</p>
+            <p className='text-gray-600 text-[1rem] lg:text-[0rem]'>issues@latte.com</p>
+            <p className='text-gray-600 sm:text-[0rem] lg:text-[0rem] text-[1rem]'>work@latte.com</p>
+            <p className='text-gray-600 sm:text-[0rem] lg:text-[0rem] text-[1rem]'>letter@latte.com</p>
+            <p className='text-gray-600 sm:text-[0rem] lg:text-[0rem] text-[1rem]'>reserve@latte.com</p>
+          </div>
+          <div className='px-12 sm:text-end text-start'>
+            <p className="text-black sm:text-[1.1rem] text-[0rem]">Contact Us</p>
+            <p className='text-gray-600 sm:text-[1rem] lg:text-[0rem] text-[0rem]'>work@latte.com</p>
+            <p className='text-gray-600 sm:text-[1rem] lg:text-[0rem] text-[0rem]'>letter@latte.com</p>
+            <p className='text-gray-600 sm:text-[1rem] lg:text-[0rem] text-[0rem]'>reserve@latte.com</p>
+          </div>
+        </div>
+        <div className="flex lg:flex-row flex-col justify-between gap-5 lg:gap-0 lg:w-[50rem] sm:w-[30rem] w-11/12 lg:h-[12rem] items-center py-12 bg-[rgba(223,219,182,.9)] rounded-3xl relative shadow-xl shadow-black">
+          <div className='px-12 text-center lg:text-start'>
             <p className="text-gray-500 text-md">Mexico Store</p>
             <p className="text-black text-[1.1rem]">Customer Support</p>
             <p className='text-gray-600'>+52 618 155 2012</p>
@@ -45,7 +62,7 @@ const Contact = () => {
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
           />
-          <div className='px-12 text-end'>
+          <div className='px-12 lg:text-end text-center'>
             <p className="text-gray-500 text-md">Uruguay Store</p>
             <p className="text-black text-[1.1rem]">Customer Support</p>
             <p className='text-gray-600'>+598 95 400 212</p>
@@ -53,7 +70,7 @@ const Contact = () => {
             <p className='text-gray-600'>+598 97 754 210</p>
           </div>
         </div>
-        <div className="mt-12 flex gap-6">
+        <div className="mt-12 flex gap-6 pb-32">
           <motion.a href="#"
             variants={opacityTransition}
             initial="hidden"

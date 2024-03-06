@@ -20,7 +20,11 @@ export default {
       '3xl': '1850px',
       '2xl': '1536px',
       '1.5xl': '1440px',
-      'xl': '1280px'
+      'xl': '1280px',
+      'lg': '1024px',
+      'md': '768px',
+      'sm': '525px',
+      'xs': '425px'
     }
   },
   plugins: [],

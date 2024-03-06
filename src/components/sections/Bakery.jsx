@@ -3,11 +3,11 @@ import { opacityTransition } from "../../utils/transitions";
 
 const Bakery = () => {
   return (
-    <div className="xl:h-screen h-full w-full relative flex flex-col items-center justify-end" id="bakery">
-      <div className="bg-[rgba(223,219,182,.9)] mb-24 xl:mb-0 w-[18rem] h-[5rem] xl:w-[0rem] xl:px-0 flex justify-start items-center rounded-3xl relative px-12">
-        <h2 className="text-gray-700 text-[2.5rem] xl:text-[0rem]">Bakery</h2>
-        <img src="choco-donut.webp" alt="" className="absolute w-32 xl:w-[0rem] ml-[9.5rem]" />
-      </div>
+    <div className="h-full w-screen relative flex flex-col items-center justify-end lg:pt-0 pt-24" id="bakery">
+                <div className="bg-[rgba(223,219,182,.9)] mb-24 sm:w-[25rem] xs:w-[20rem] w-[18rem] pr-20 h-[5rem] flex justify-center items-center py-5 rounded-3xl relative">
+                    <h2 className="text-gray-700 sm:text-[2.5rem] text-[1.8rem] pl-6">Bakery</h2>
+                    <img src="choco-donut.webp" alt="Chocolate Donut" className="absolute xs:w-32 w-[7rem] xs:ml-[20rem] ml-[17rem] -rotate-12" />
+                </div>
       <div className="flex items-center justify-center w-full h-4/6 z-30 flex-wrap gap-12 sm:mb-72">
         <div>
           <div className="3xl:w-[28rem] w-[22rem] 3xl:h-[16rem] h-[13rem] bg-[rgba(10,57,52,.89)] flex justify-center items-center rounded-3xl relative">
@@ -95,7 +95,7 @@ const Bakery = () => {
         </div>
       </div>
       <div className="h-[10rem] relative">
-        <button className="text-white font-bold px-12 py-3 mt-6 border rounded-3xl flex items-center gap-2 hover:bg-[rgba(10,57,52,1)] hover:scale-105 hover:duration-300 transition-all">
+        <button className="text-white font-bold px-12 py-3 mt-12 border rounded-3xl flex items-center gap-2 hover:bg-[rgba(10,57,52,1)] hover:scale-105 hover:duration-300 transition-all">
           View full menu
         </button>
       </div>

@@ -3,14 +3,14 @@ import { yTransition } from "../../utils/transitions";
 
 const Reviews = () => {
     return (
-        <div className="xl:w-screen xl:h-screen relative font-ubuntu flex items-center" id="reviews">
-            <div className="w-full h-full flex items-center justify-center flex-col text-white z-30 pt-20">
-                <div className="bg-[rgba(223,219,182,.9)] mb-24 w-[25rem] pr-24 h-[5rem] flex justify-center items-center rounded-3xl relative">
-                    <h2 className="text-gray-700 text-[2.5rem]">Top Reviews</h2>
-                    <img src="medal.webp" alt="Medal" className="absolute w-32 ml-[22rem] mt-6" />
+        <div className="xl:w-screen xl:h-screen relative font-ubuntu flex items-center pt-64" id="reviews">
+            <div className="w-full h-full flex items-center justify-center flex-col text-white z-30">
+                <div className="bg-[rgba(223,219,182,.9)] mb-24 sm:w-[25rem] xs:w-[20rem] w-[18rem] pr-20 h-[5rem] flex justify-center items-center rounded-3xl relative">
+                    <h2 className="text-gray-700 sm:text-[2.5rem] text-[1.8rem] pl-6">Top Reviews</h2>
+                    <img src="medal.webp" alt="Medal" className="absolute xs:w-32 w-[7rem] xs:ml-[20rem] ml-[18rem] mt-6" />
                 </div>
                 <div className="swiper font-ubuntu w-screen h-3/12 flex justify-center flex-wrap gap-5 2xl:gap-10 items-center text-center relative text-white">
-                    <motion.div className="2xl:w-[28rem] xl:w-[26rem] w-[28rem] 3xl:w-[30rem] h-[17rem]  bg-[rgba(10,57,52,.89)] py-8 rounded-3xl px-8 shadow-xl shadow-black"
+                    <motion.div className="2xl:w-[28rem] xl:w-[26rem] sm:w-[28rem] xs:w-10/12 w-11/12 3xl:w-[30rem] sm:h-[17rem]  bg-[rgba(10,57,52,.89)] py-8 rounded-3xl px-8 shadow-xl shadow-black"
                         variants={yTransition}
                         initial="hidden"
                         whileInView="visible"
@@ -34,7 +34,7 @@ const Reviews = () => {
                             </div>
                         </div>
                     </motion.div>
-                    <motion.div className="2xl:w-[28rem] xl:w-[26rem] w-[28rem] 3xl:w-[30rem] h-[17rem] bg-[rgba(10,57,52,.89)] py-8 rounded-3xl px-8 shadow-xl shadow-black"
+                    <motion.div className="2xl:w-[28rem] xl:w-[26rem] sm:w-[28rem] xs:w-10/12 w-11/12 3xl:w-[30rem] sm:h-[17rem] bg-[rgba(10,57,52,.89)] py-8 rounded-3xl px-8 shadow-xl shadow-black"
                         variants={yTransition}
                         initial="hidden"
                         whileInView="visible"
@@ -58,7 +58,7 @@ const Reviews = () => {
                             </div>
                         </div>
                     </motion.div>
-                    <motion.div className="2xl:w-[28rem] xl:w-[26rem] 3xl:w-[30rem] w-[28rem] h-[17rem] bg-[rgba(10,57,52,.89)] py-8 rounded-3xl px-8 shadow-xl shadow-black"
+                    <motion.div className="2xl:w-[28rem] xl:w-[26rem] 3xl:w-[30rem] sm:w-[28rem] xs:w-10/12 w-11/12 sm:h-[17rem] bg-[rgba(10,57,52,.89)] py-8 rounded-3xl px-8 shadow-xl shadow-black"
                         variants={yTransition}
                         initial="hidden"
                         whileInView="visible"

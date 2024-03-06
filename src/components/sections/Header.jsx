@@ -20,10 +20,10 @@ const Header = () => {
 
 
     return (
-        <div className="flex justify-center h-[10vh] px-20 z-50 sticky top-0 left-0" id="header">
+        <div className="flex w-full justify-center h-[5rem] z-50 fixed pt-6" id="header">
             <audio src="/coffee-jazz-music.mp3" id="audio"></audio>
             <div className="container flex justify-center items-center text-white">
-                <img src="logo-green.webp" alt="Logo" className="w-[4rem] absolute left-0 ml-[4.5rem]" />
+                <img src="logo-green.webp" alt="Logo" className="w-[4.5rem] absolute left-0 ml-[4.5rem]" />
                 <div className="font-semibold text-2xl" initial={{ x: -100, opacity: 0 }} animate={{ x: 0, opacity: 1 }}>
                 </div>
                 <Navbar />

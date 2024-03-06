@@ -16,7 +16,7 @@ const Order = () => {
 
 
   return (
-    <div className="xl:w-screen xl:h-screen relative font-ubuntu flex flex-col items-center justify-center" id="order">
+    <div className="xl:w-screen xl:h-screen relative font-ubuntu flex flex-col items-center justify-center pt-64" id="order">
       {
         orderForm ?
           <div id="orderForm">
@@ -24,15 +24,15 @@ const Order = () => {
           </div>
           :
           <div className="w-full h-full items-center justify-center flex flex-col text-white z-40 gap-10 mt-24 z-60 relative" id="orderMain">
-            <div className="px-16 py-8 bg-[rgba(10,57,52,.89)] w-11/12 xl:w-[60rem] 3xl:w-[70rem] xl:h-[16rem] 3xl:h-[18rem] rounded-3xl relative shadow-xl shadow-black">
-              <h2 className="text-latte-gray 3xl:text-[2.5rem] 2xl:text-[2rem] mb-6">Enjoy our coffee!</h2>
+            <div className="sm:px-16 px-12 py-8 bg-[rgba(10,57,52,.89)] w-11/12 xl:w-[60rem] 3xl:w-[70rem] xl:h-[16rem] 3xl:h-[18rem] rounded-3xl relative shadow-xl shadow-black">
+              <h2 className="text-latte-gray 3xl:text-[2.5rem] text-[2rem] mb-6">Enjoy our coffee!</h2>
               <p className="text-xl tracking-normal w-full">
                 Welcome to our Order Section, where your coffee journey begins with a click. Explore our diverse range of meticulously curated coffee blends, crafted from the world's finest beans.
                 Choose from our selection of single-origin delights, carefully roasted to perfection. Add artisanal bakery treats to complement your coffee experience.
               </p>
             </div>
             <div className="flex gap-8 w-full justify-center flex-wrap">
-              <motion.div className="px-12 py-8 bg-[rgba(223,219,182,.9)] w-[29rem] 3xl:w-[22rem] 3xl:h-[16rem] h-[14rem] rounded-3xl relative shadow-xl shadow-black"
+              <motion.div className="px-12 py-8 bg-[rgba(223,219,182,.9)] sm:w-[29rem] w-11/12 3xl:w-[22rem] 3xl:h-[16rem] sm:h-[14rem] rounded-3xl relative shadow-xl shadow-black"
                 variants={opacityTransition}
                 initial="hidden"
                 whileInView="visible"
@@ -47,7 +47,7 @@ const Order = () => {
                   Our commitment extends beyond borders, offering a seamless and reliable international shipping service for our premium coffee.
                 </p>
               </motion.div>
-              <motion.div className="px-12 py-8 bg-[rgba(223,219,182,.9)] w-[29rem] 3xl:w-[22rem] 3xl:h-[16rem] h-[14rem] rounded-3xl relative shadow-xl shadow-black"
+              <motion.div className="px-12 py-8 bg-[rgba(223,219,182,.9)] sm:w-[29rem] w-11/12 3xl:w-[22rem] 3xl:h-[16rem] sm:h-[14rem] rounded-3xl relative shadow-xl shadow-black"
                 variants={opacityTransition}
                 initial="hidden"
                 whileInView="visible"
@@ -62,7 +62,7 @@ const Order = () => {
                   Our coffee products are crafted to be versatile, accommodating various brewing methods and environments to ensure your satisfaction on the go.
                 </p>
               </motion.div>
-              <motion.div className="px-12 py-8 bg-[rgba(223,219,182,.9)] hidden h-[16rem] rounded-3xl relative shadow-xl shadow-black 3xl:inline-block 3xl:w-[22rem]"
+              <motion.div className="px-12 py-8 lg:py-0 lg:px-0 bg-[rgba(223,219,182,.9)] 3xl:h-[16rem] sm:w-[29rem] w-11/12 rounded-3xl relative shadow-xl shadow-black 3xl:inline-block 3xl:w-[22rem] lg:w-0"
                 variants={opacityTransition}
                 initial="hidden"
                 whileInView="visible"
@@ -70,15 +70,15 @@ const Order = () => {
                 transition={{ delay: 0.3 }}
               >
                 <div className="flex items-center justify-between pb-4">
-                  <h4 className="text-2xl text-black">Preference</h4>
+                  <h4 className="3xl:text-2xl lg:text-[0rem] text-2xl text-black">Preference</h4>
                   <img src="quality.webp" alt="World" className="w-12 h-12" />
                 </div>
-                <p className="text-[1.05rem] tracking-wide text-[rgba(56,65,64,0.89)]">
+                <p className="3xl:text-[1.05rem] lg:text-[0] tracking-wide text-[rgba(56,65,64,0.89)]">
                   Personalize your travel coffee experience with our diverse coffee varieties, ensuring that your cup aligns perfectly with your unique taste preferences.
                 </p>
               </motion.div>
             </div>
-            <motion.button onClick={goOrderForm} className="orderButtonAnimation text-white font-bold px-32 z-100 py-4 border-2 rounded-3xl flex items-center hover:bg-[rgba(10,57,52,1)] hover:scale-105 hover:duration-300"
+            <motion.button onClick={goOrderForm} className="orderButtonAnimation text-white font-bold xs:px-32 px-12 z-100 py-4 border-2 rounded-3xl flex items-center hover:bg-[rgba(10,57,52,1)] hover:scale-105 hover:duration-300"
               variants={opacityTransition}
               initial="hidden"
               whileInView="visible"
