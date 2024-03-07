@@ -3,9 +3,9 @@ import { opacityTransition } from "../../utils/transitions";
 
 const Contact = () => {
   return (
-    <div className="w-screen h-screen relative font-ubuntu pt-[40rem] lg:pt-[10rem]" id="contact">
+    <div className="w-screen h-screen relative font-ubuntu pt-[60rem] lg:pt-[10rem]" id="contact">
       <div className="w-full h-full flex items-center flex-col justify-center 3xl:pt-20 pt-10">
-        <motion.img src="coffee-shop.webp" alt="Coffee Shop" className="absolute 3xl:w-[30rem] 2xl:w-[22rem] sm:w-[22rem] w-[20rem] drop-shadow-2xl 2xl:mb-[30rem] lg:mb-[34rem] sm:mb-[69rem] mb-[73rem] z-50"
+        <motion.img src="coffee-shop.webp" alt="Coffee Shop" className="absolute 3xl:w-[28rem] 2xl:w-[22rem] sm:w-[22rem] xs:w-[20rem] w-[18rem] drop-shadow-2xl 3xl:mb-[38rem] 2xl:mb-[35rem] lg:mb-[34rem] sm:mb-[69rem] mb-[73rem] z-50"
           variants={opacityTransition}
           initial="hidden"
           whileInView="visible"
@@ -13,17 +13,17 @@ const Contact = () => {
           transition={{ delay: 0.1 }}
         />
         <div className="flex sm:justify-between justify-center lg:w-[50rem] sm:w-[30rem] w-11/12 h-[12rem] sm:items-start items-center py-12 bg-[rgba(223,219,182,.9)] rounded-3xl relative shadow-xl shadow-black mb-6 mt-48">
-          <div className='sm:px-12 w-6/12'>
+          <div className='lg:px-12 px-0 w-0 lg:w-6/12'>
             <p className="text-black lg:text-[1.1rem] text-[0rem]">Contact Us</p>
             <p className='text-gray-600 lg:text-[1rem] text-[0rem]'>info@latte.com</p>
             <p className='text-gray-600 lg:text-[1rem] text-[0rem]'>ideas@latte.com</p>
             <p className='text-gray-600 lg:text-[1rem] text-[0rem]'>issues@latte.com</p>
           </div>
-          <div className='lg:px-12 sm:px-6 px-0 max-w-[20rem] text-center'>
+          <div className='lg:px-12 px-12 lg:max-w-[20rem] w-full text-center'>
             <p className="text-black text-[1.1rem]">Visit Us</p>
             <p className='text-gray-600'>Our stores are open from 8am to 21pm. We make events on special days.</p>
           </div>
-          <div className='px-12 text-end'>
+          <div className='lg:px-12 px-0 text-end'>
             <p className="text-black lg:text-[1.1rem] text-[0rem]">Contact Us</p>
             <p className='text-gray-600 lg:text-[1rem] text-[0rem]'>work@latte.com</p>
             <p className='text-gray-600 lg:text-[1rem] text-[0rem]'>letter@latte.com</p>

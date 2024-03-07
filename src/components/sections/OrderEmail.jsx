@@ -33,10 +33,10 @@ const OrderEmail = () => {
 
 
     return (
-        <div className='xl:w-screen flex justify-center'>
+        <div className='w-screen h-screen flex justify-center items-center'>
             {
                 status ?
-                    <motion.div className="flex flex-col justify-center w-4/12 h-[12rem] items-center bg-[rgba(10,57,52,.89)] text-center rounded-3xl relative shadow-xl shadow-black"
+                    <motion.div className="flex flex-col justify-center xs:w-[25rem] w-11/12 h-[12rem] items-center bg-[rgba(10,57,52,.89)] text-center rounded-3xl relative shadow-xl shadow-black"
                         variants={opacityTransition}
                         initial="hidden"
                         whileInView="visible"
@@ -50,7 +50,7 @@ const OrderEmail = () => {
                         </div>
                     </motion.div>
                     :
-                    <motion.div className="flex flex-col justify-center w-4/12 h-[12rem] items-center bg-[rgba(10,57,52,.89)] text-center rounded-3xl relative shadow-xl shadow-black"
+                    <motion.div className="flex flex-col justify-center xs:w-[25rem] w-11/12 h-[12rem] items-center bg-[rgba(10,57,52,.89)] text-center rounded-3xl relative shadow-xl shadow-black"
                         variants={opacityTransition}
                         initial="hidden"
                         whileInView="visible"

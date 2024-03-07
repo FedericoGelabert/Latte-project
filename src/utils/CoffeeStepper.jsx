@@ -6,8 +6,9 @@ const CoffeeStepper = () => {
     return (
         <div className="w-full xs:px-12 px-6 py-12">
             <div className="relative flex lg:flex-row flex-col items-center justify-between w-full gap-10">
-                <div className="absolute left-[0.4rem] right-0 lg:left-0 top-2/4 h-0.5 w-[98%] -translate-y-2/4 bg-gray-300 lg:rotate-0 rotate-90"></div>
-            
+                <div className="absolute left-[0.4rem] right-0 lg:left-0 top-2/4 h-0.5 lg:w-[98%] w-[0] -translate-y-2/4 bg-gray-300"></div>
+                <div className="absolute top-2/4 h-[98%] w-[0.1rem] lg:w-[0] -translate-y-2/4 bg-gray-300"></div>
+
                 <motion.div
                     className="relative z-10 grid w-10 h-10 font-bold text-gray-900 transition-all duration-300 bg-orange-50 rounded-full place-items-center"
                     variants={opacityTransition}
@@ -89,7 +90,7 @@ const CoffeeStepper = () => {
                             Step 4
                         </h6>
                         <p className="block font-sans text-base antialiased font-normal leading-relaxed text-white">
-                            Roast & Ground
+                            Roast <span className="text-[0] sm:text-[1rem]">& Ground</span>
                         </p>
                     </div>
                 </motion.div>
