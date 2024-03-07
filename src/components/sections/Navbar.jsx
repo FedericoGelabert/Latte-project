@@ -1,6 +1,6 @@
 const Navbar = () => {
     return (
-        <div className="flex items-center font-ubuntu">
+        <div className="flex items-center font-ubuntu lg:inline-block hidden">
             <ul className="flex ul-navbar">
                 <li>
                     <a href="#home">Home</a>
