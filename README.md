@@ -10,6 +10,7 @@ This project is undergoing modifications.
 - framer motion
 - jquery
 
+
 ### To-do List
 
 - [x] Create a new logo and add it.
@@ -19,7 +20,11 @@ This project is undergoing modifications.
 - [x] Finish all sections.
 - [x] Make sound and mute icons functional.
 - [ ] Responsive design.
-- [ ] Send emails function.
+- [ ] Create a Hamburger Menu (for Mobile).
+- [ ] Add an arrow on Presentation Component (for Mobile).
+- [ ] Make the Header disabled until Main Component (for Mobile).
+- [ ] Add a favicon.
+
 
 ### Installation
 
@@ -30,6 +35,7 @@ npm install
 
 npm start
 ```
+
 
 ### Contact
 
