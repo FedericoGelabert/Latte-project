@@ -20,7 +20,7 @@ const Header = () => {
 
 
     return (
-        <div className="flex w-full justify-center h-[5rem] z-50 fixed pt-6" id="header">
+        <div className="flex w-screen justify-center h-[5rem] z-50 fixed pt-6" id="header">
             <audio src="/coffee-jazz-music.mp3" id="audio"></audio>
             <div className="container flex justify-center items-center text-white">
                 <img src="logo-green.webp" alt="Logo" className="w-[4.5rem] absolute left-0 md:ml-[4.5rem] xs:ml-[3.5rem] ml-[2rem]" />
