@@ -10,12 +10,24 @@ import Header from "./sections/Header";
 import Story from "./sections/Story";
 import Visit from "./sections/Visit";
 import Order from "./sections/Order";
+import HamMenu from "../utils/HamMenu";
+import { useState } from "react";
+
+
 
 function App() {
+
+  const [menuActived, setMenuActived] = useState(false)
+
+
   return (
     <div className="xl:snap-y xl:snap-mandatory relative w-screen h-screen xl:overflow-auto scroll-smooth">
       <BackgroundVideo />
-      <Header />
+      <Header setMenuActived={setMenuActived} />
+      {
+        menuActived ?
+          <HamMenu /> : ""
+      }
       <div className="snap-center">
         <Presentation />
       </div>
@@ -44,7 +56,7 @@ function App() {
         <Order />
       </div>
       <div className="snap-center">
-      <Contact />
+        <Contact />
       </div>
     </div>
   )

@@ -3,7 +3,7 @@ import { opacityTransition } from "../../utils/transitions";
 
 const OurCoffee = () => {
   return (
-    <div className="w-screen h-screen relative font-ubuntu flex items-center justify-center mb-[30rem] md:mb-48 lg:mb-0" id="coffee">
+    <div className="w-screen h-screen relative font-ubuntu flex items-center justify-center mb-[30rem] md:mb-48 lg:mb-0">
       <div className="h-full w-full flex items-center justify-center flex-col text-white z-30">
         <div className="xs:px-16 px-10 pb-12 bg-[rgba(10,57,52,.89)] sm:w-10/12 w-11/12 3xl:w-[70rem] sm:h-[24rem] h-[48rem] rounded-3xl relative shadow-xl shadow-black">
           <h2 className="text-latte-gray text-[2.5rem] mb-5 mt-10">Our Coffee</h2>

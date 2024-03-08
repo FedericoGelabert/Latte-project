@@ -7,8 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'ubuntu': ['Ubuntu', 'sans-serif'],
-        'shrik': ['Shrikhand', 'serif']
+        'ubuntu': ['Ubuntu', 'sans-serif']
       },
       backgroundColor: {
         'black-b1': 'rgba(0,0,0,0.7)'
