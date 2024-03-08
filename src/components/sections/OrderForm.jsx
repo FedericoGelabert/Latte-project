@@ -76,7 +76,7 @@ const OrderForm = () => {
                         transition={{ delay: 0.05 }}
                     >
                         <div className="w-full h-full flex items-center justify-center flex-col text-white z-30">
-                            <div className="lg:px-16 sm:px-10 sm:px-8 px-4 mt-12 bg-[rgba(10,57,52,.89)] lg:w-[60rem] w-11/12 pb-12 rounded-3xl relative shadow-xl shadow-black">
+                            <div className="lg:px-16 sm:px-8 px-4 mt-12 bg-[rgba(10,57,52,.89)] lg:w-[60rem] w-11/12 pb-12 rounded-3xl relative shadow-xl shadow-black">
                                 <form>
                                     <h2 className="text-latte-gray text-[2.5rem] mb-5 mt-10 sm:pl-0 pl-6">Order Form</h2>
                                     <div className="w-full flex lg:flex-row flex-col lg:items-start items-center justify-around gap-5 mb-5">
