@@ -3,7 +3,7 @@ import { yTransition } from "../../utils/transitions";
 
 const Reviews = () => {
     return (
-        <div className="w-screen h-screen relative font-ubuntu flex items-center mt-64 pb-32 lg:mt-24" id="reviews">
+        <div className="w-screen h-screen relative font-ubuntu flex items-center mt-64 lg:mt-0" id="reviews">
             <div className="w-full h-full flex items-center justify-center flex-col text-white z-30">
                 <div className="bg-[rgba(223,219,182,.9)] mb-24 sm:w-[25rem] xs:w-[20rem] w-[18rem] pr-20 xs:h-[5rem] h-[4.5rem] flex justify-center items-center rounded-3xl relative">
                     <h2 className="text-gray-700 sm:text-[2.5rem] xs:text-[2rem] text-[1.6rem] pl-6">Top Reviews</h2>

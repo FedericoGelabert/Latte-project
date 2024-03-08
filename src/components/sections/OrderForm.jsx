@@ -80,12 +80,12 @@ const OrderForm = () => {
                                 <form>
                                     <h2 className="text-latte-gray text-[2.5rem] mb-5 mt-10 sm:pl-0 pl-6">Order Form</h2>
                                     <div className="w-full flex lg:flex-row flex-col lg:items-start items-center justify-around gap-5 mb-5">
-                                        <input type="text" placeholder="Name" required className="w-10/12 lg:w-[20rem] p-3 bg-inherit border-b-2 w-[20rem] focus:bg-[#f3f3ed] focus:text-black" />
-                                        <input type="text" placeholder="Surname" required className="w-10/12 lg:w-[20rem] p-3 bg-inherit border-b-2 w-[20rem] focus:bg-[#f3f3ed] focus:text-black" />
+                                        <input type="text" placeholder="Name" required className="w-10/12 lg:w-[20rem] p-3 bg-inherit border-b-2 focus:bg-[#f3f3ed] focus:text-black" />
+                                        <input type="text" placeholder="Surname" required className="w-10/12 lg:w-[20rem] p-3 bg-inherit border-b-2 focus:bg-[#f3f3ed] focus:text-black" />
                                     </div>
                                     <div className="w-full flex lg:flex-row flex-col lg:items-start items-center justify-around lg:mt-6 mt-0 gap-5">
-                                        <input type="email" placeholder="Email" required onChange={validateEmail} className="w-10/12 lg:w-[20rem] p-3 bg-inherit border-b-2 w-[20rem] focus:bg-[#f3f3ed] focus:text-black" />
-                                        <input type="text" placeholder="Phone Numer" required className="w-10/12 lg:w-[20rem] p-3 bg-inherit border-b-2 w-[20rem] focus:bg-[#f3f3ed] focus:text-black" />
+                                        <input type="email" placeholder="Email" required onChange={validateEmail} className="w-10/12 lg:w-[20rem] p-3 bg-inherit border-b-2 focus:bg-[#f3f3ed] focus:text-black" />
+                                        <input type="text" placeholder="Phone Numer" required className="w-10/12 lg:w-[20rem] p-3 bg-inherit border-b-2 focus:bg-[#f3f3ed] focus:text-black" />
                                     </div>
                                     <div className="w-full flex sm:flex-row flex-col mt-6 items-center md:h-12 xs:h-32 h-40 sm:pl-0 pl-12">
                                         <div className="sm:w-[25rem] sm:pl-12 pl-0 px-5">

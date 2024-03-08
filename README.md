@@ -21,7 +21,7 @@ This project is undergoing modifications.
 - [x] Make sound and mute icons functional.
 - [x] Responsive design.
 - [x] Create a Hamburger Menu (for Mobile).
-- [ ] Add a favicon.
+- [x] Add a favicon.
 
 
 ### Installation

@@ -38,7 +38,7 @@ const Header = ( {setMenuActived} ) => {
                 <div className="absolute right-0 md:mr-[9rem] xs:mr-[6.8rem] mr-[4.5rem] flex items-center lg:hidden show" onClick={menuFunction}>
                     {
                         menuStatus ?
-                            <i class="text-[2rem] fa-solid fa-xmark right-0 top-0"></i>
+                            <i className="text-[2rem] fa-solid fa-xmark right-0 top-0"></i>
                             :
                             <i className="text-[2rem] fa-solid fa-bars right-0 top-0"></i>
                     }
