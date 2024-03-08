@@ -16,7 +16,7 @@ const Order = () => {
 
 
   return (
-    <div className="w-screen h-screen relative font-ubuntu flex flex-col items-center justify-center mt-[40rem] lg:mt-[0rem] mb-[30rem] lg:mt-6" id="order">
+    <div className="w-screen h-screen relative font-ubuntu flex flex-col items-center justify-center mt-[40rem] mb-[30rem] lg:mt-6" id="order">
       {
         orderForm ?
           <div id="orderForm">
@@ -62,7 +62,7 @@ const Order = () => {
                   Our coffee products are crafted to be versatile, accommodating various brewing methods and environments to ensure your satisfaction on the go.
                 </p>
               </motion.div>
-              <motion.div className="px-12 py-8 lg:py-0 lg:px-0 3xl:px-12 3xl:py-8 bg-[rgba(223,219,182,.9)] 3xl:h-[16rem] lg:h-[0rem] sm:w-[29rem] w-11/12 rounded-3xl relative shadow-xl shadow-black 3xl:inline-block 3xl:w-[22rem] lg:hidden 3xl:inline-block inline-block"
+              <motion.div className="px-12 py-8 lg:py-0 lg:px-0 3xl:px-12 3xl:py-8 bg-[rgba(223,219,182,.9)] 3xl:h-[16rem] lg:h-[0rem] sm:w-[29rem] w-11/12 rounded-3xl relative shadow-xl shadow-black 3xl:w-[22rem] lg:hidden 3xl:inline-block inline-block"
                 variants={opacityTransition}
                 initial="hidden"
                 whileInView="visible"

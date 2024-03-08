@@ -29,9 +29,9 @@ function App() {
 
     const scroll = $('#allSections').scrollTop()
 
-    if(scroll >= 800) {
+    if(scroll >= 600) {
       setHeaderActivated(true)
-    } else if(scroll <= 800) {
+    } else if(scroll <= 600) {
       setHeaderActivated(false)
     }
 
