@@ -16,7 +16,7 @@ const Header = ( {setMenuActived} ) => {
             audioElement.pause()
             setAudioStatus(false)
         }
-
+ 
     }
 
     const menuFunction = () => {
