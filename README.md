@@ -31,7 +31,7 @@ https://latte-web.netlify.app
 - [x] Responsive design.
 - [x] Add a favicon.
 - [x] Create a Hamburger Menu (for Mobile).
-- [ ] Hide Header until Main Component.
+- [x] Hide Header until Main Component.
 - [ ] Add an arrow on Presentation Component (for Mobile).
 
 

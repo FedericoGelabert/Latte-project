@@ -11,7 +11,7 @@ import Story from "./sections/Story";
 import Visit from "./sections/Visit";
 import Order from "./sections/Order";
 import HamMenu from "../utils/HamMenu";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import $ from 'jquery';
 
 
@@ -21,21 +21,23 @@ function App() {
   const [menuActived, setMenuActived] = useState(false)
   const [headerActivated, setHeaderActivated] =useState(false)
 
-  const allSections = document.getElementById('allSections')
 
+  useEffect(() => {
+    const allSections = document.getElementById('allSections')
 
+    $(allSections).on('scroll', () => {
 
-  $(allSections).on('scroll', () => {
+      const scroll = $('#allSections').scrollTop()
+  
+      if(scroll >= 600) {
+        setHeaderActivated(true)
+      } else if(scroll <= 600) {
+        setHeaderActivated(false)
+      }
+  
+    }) 
 
-    const scroll = $('#allSections').scrollTop()
-
-    if(scroll >= 600) {
-      setHeaderActivated(true)
-    } else if(scroll <= 600) {
-      setHeaderActivated(false)
-    }
-
-  }) 
+  })
 
 
   return (
