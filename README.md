@@ -29,8 +29,10 @@ https://latte-web.netlify.app
 - [x] Finish all sections.
 - [x] Make sound and mute icons functional.
 - [x] Responsive design.
-- [x] Create a Hamburger Menu (for Mobile).
 - [x] Add a favicon.
+- [x] Create a Hamburger Menu (for Mobile).
+- [ ] Hide Header until Main Component.
+- [ ] Add an arrow on Presentation Component (for Mobile).
 
 
 ### Installation

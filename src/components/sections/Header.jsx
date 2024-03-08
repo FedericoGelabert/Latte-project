@@ -28,6 +28,7 @@ const Header = ( {setMenuActived} ) => {
             setMenuActived(false)
         }
     }
+    
 
     return (
         <div className="flex w-screen justify-center h-24 z-50 fixed mt-3 items-center" id="header">

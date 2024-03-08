@@ -12,18 +12,39 @@ import Visit from "./sections/Visit";
 import Order from "./sections/Order";
 import HamMenu from "../utils/HamMenu";
 import { useState } from "react";
+import $ from 'jquery';
 
 
 
 function App() {
 
   const [menuActived, setMenuActived] = useState(false)
+  const [headerActivated, setHeaderActivated] =useState(false)
+
+  const allSections = document.getElementById('allSections')
+
+
+
+  $(allSections).on('scroll', () => {
+
+    const scroll = $('#allSections').scrollTop()
+
+    if(scroll >= 800) {
+      setHeaderActivated(true)
+    } else if(scroll <= 800) {
+      setHeaderActivated(false)
+    }
+
+  }) 
 
 
   return (
-    <div className="xl:snap-y xl:snap-mandatory relative w-screen h-screen xl:overflow-auto scroll-smooth">
+    <div className="xl:snap-y xl:snap-mandatory relative w-screen h-screen xl:overflow-auto scroll-smooth overflow-y-scroll" id="allSections">
       <BackgroundVideo />
-      <Header setMenuActived={setMenuActived} />
+      {
+        headerActivated ?
+        <Header setMenuActived={setMenuActived} /> : ""
+      }
       {
         menuActived ?
           <HamMenu /> : ""
