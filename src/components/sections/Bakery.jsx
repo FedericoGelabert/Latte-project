@@ -3,7 +3,7 @@ import { opacityTransition } from "../../utils/transitions";
 
 const Bakery = () => {
   return (
-    <div className="h-full w-screen relative flex flex-col items-center justify-end lg:pt-16 pt-72" id="bakery">
+    <div className="h-full w-screen relative flex flex-col items-center justify-end 3xl:pt-16 lg:pt-8 pt-72" id="bakery">
                 <div className="bg-[rgba(223,219,182,.9)] mb-24 sm:w-[20rem] lg:w-[0rem] xs:w-[20rem] w-[18rem] pr-[6rem] lg:h-0 h-[5rem] flex justify-center items-center lg:py-0 py-5 rounded-3xl relative">
                     <h2 className="text-gray-700 lg:text-[0rem] sm:text-[2.5rem] text-[2.2rem] font-semibold">Bakery</h2>
                     <img src="choco-donut.webp" alt="Chocolate Donut" className="absolute xs:w-32 w-[7rem] xs:ml-[20rem] lg:w-0 lg:ml-[0rem] ml-[16rem] -rotate-12" />
