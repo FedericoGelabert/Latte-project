@@ -32,7 +32,7 @@ https://latte-web.netlify.app
 - [x] Add a favicon.
 - [x] Create a Hamburger Menu (for Mobile).
 - [x] Hide Header until Main Component.
-- [ ] Add an arrow on Presentation Component (for Mobile).
+- [x] Add an arrow on Presentation Component (for Mobile).
 
 
 ### Installation
