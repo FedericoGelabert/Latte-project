@@ -38,6 +38,7 @@ const OrderForm = () => {
             user_name: name,
             user_surname: surname,
             user_email: email,
+            to_email: email,
             user_phonenumber: phonenumber,
             user_latteid: latteid,
             order_details : itemsStringify
