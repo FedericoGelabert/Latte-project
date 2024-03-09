@@ -103,7 +103,7 @@ const OrderForm = () => {
                     <div>
                         <OrderEmail />
                     </div> :
-                    <motion.div className="w-screen h-screen relative font-ubuntu flex items-center justify-center xl:mt-0 mt-48 xl:mb-0 mb-48" id="orderForm"
+                    <motion.div className="w-screen h-screen relative font-ubuntu flex items-center justify-center xl:mt-0 mt-48 xl:mb-0 mb-48 pt-6" id="orderForm"
                         variants={opacityTransition}
                         initial="hidden"
                         whileInView="visible"
@@ -111,9 +111,9 @@ const OrderForm = () => {
                         transition={{ delay: 0.05 }}
                     >
                         <div className="w-full h-full flex items-center justify-center flex-col text-white z-30">
-                            <div className="lg:px-16 sm:px-8 px-4 mt-12 bg-[rgba(10,57,52,.89)] lg:w-[55rem] 3xl:w-[60rem] w-11/12 3xl:pb-12 pb-6 rounded-3xl relative shadow-xl shadow-black">
+                            <div className="lg:px-16 sm:px-8 px-4 mt-12 bg-[rgba(10,57,52,.89)] lg:w-[50rem] 3xl:w-[60rem] w-11/12 3xl:pb-12 pb-6 rounded-3xl relative shadow-xl shadow-black">
                                 <form ref={form} className="3xl:mt-12 mt-6">
-                                    <h2 className="text-latte-gray 3xl:text-[2.5rem] text-[1.5rem] mb-5 3xl:mt-10 mt-8 sm:pl-0 pl-6">Order Form</h2>
+                                    <h2 className="text-latte-gray 3xl:text-[2.5rem] text-[1.5rem] mb-5 3xl:mt-10 mt-0 sm:pl-0 pl-6">Order Form</h2>
                                     <div className="w-full flex lg:flex-row flex-col lg:items-start items-center justify-around gap-5 mb-5">
                                         <input type="text" placeholder="Name" required className="w-10/12 lg:w-[20rem] 3xl:p-3 p-1 bg-inherit border-b-2 focus:bg-[#f3f3ed] focus:text-black" name="name" id="user_name" value={name} onChange={e => setName(e.target.value)} />
                                         <input type="text" placeholder="Surname" required className="w-10/12 lg:w-[20rem] 3xl:p-3 p-1 bg-inherit border-b-2 focus:bg-[#f3f3ed] focus:text-black" name="user_surname" id="user_surname" value={surname} onChange={e => setSurname(e.target.value)} />
@@ -147,7 +147,7 @@ const OrderForm = () => {
                                                                 <img src={item.src} alt={item.alt} className="object-contain" data-name={item.name} data-src={item.src} data-alt={item.alt} />
                                                             </div>
                                                             <div className="flex justify-center items-center w-full h-[30%]" data-name={item.name} data-src={item.src} data-alt={item.alt}>
-                                                                <h4 data-name={item.name} data-src={item.src} data-alt={item.alt} className="3xl:text-[1rem] text-[0.75rem]"> {item.name} </h4>
+                                                                <h4 data-name={item.name} data-src={item.src} data-alt={item.alt} className="3xl:text-[1rem] text-[0.72rem] font-semibold"> {item.name} </h4>
                                                             </div>
                                                         </div>
                                                     )
@@ -163,10 +163,10 @@ const OrderForm = () => {
                                                     <div className="bg-[rgba(223,219,182,.9)] 3xl:min-w-[8rem] min-w-[6rem] 3xl:h-[7.6rem] h-[6rem] m-2 rounded-2xl text-black p-2 flex flex-col items-center justify-center relative" key={index} name="order_details">
                                                         <i className="fa-solid fa-xmark absolute top-0 right-0 z-50 pt-2 pr-3 cursor-pointer" id="mark-icon" onClick={() => removeItem(index)}></i>
                                                         <div className="w-16 flex justify-center h-[70%]">
-                                                            <img src={itemSelected.src} alt={itemSelected.alt} className="object-contain" />
+                                                            <img src={itemSelected.src} alt={itemSelected.alt} className="object-contain p-1" />
                                                         </div>
                                                         <div className="flex justify-center items-center w-full h-[30%] ">
-                                                            <h4 className="3xl:text-[1rem] text-[0.75rem]">{itemSelected.name}</h4>
+                                                            <h4 className="3xl:text-[1rem] text-[0.75rem] font-semibold">{itemSelected.name}</h4>
                                                         </div>
                                                     </div>
                                                 )
@@ -175,7 +175,7 @@ const OrderForm = () => {
                                         {/* <p className="text-gray-400">Add a product by clicking on it.</p> */}
                                     </div>
                                     <div className="w-full flex justify-center items-center mt-2 flex-col text-center">
-                                        <p className="text-xs text-red-500">* By submitting this form you will recieve an email with your selected products, a link to enter your personal address and the checkout.</p>
+                                        <p className="3xl:text-xs text-[0.6rem] text-red-500">* By submitting this form you will recieve an email with your selected products, a link to enter your personal address and the checkout.</p>
                                         <input type="submit" value="Send" className="cursor-pointer lg:w-6/12 sm:w-8/12 w-10/12 text-white font-bold 3xl:px-12 px-8 3xl:py-3 py-2 mt-3 border-2 rounded-3xl hover:bg-[rgba(10,57,52,1)] hover:scale-105 hover:duration-300 transition-all" onClick={goOrderEmail} />
                                     </div>
                                 </form>
