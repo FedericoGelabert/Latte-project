@@ -18,6 +18,7 @@ https://latte-web.netlify.app
 - postcss
 - framer motion
 - jquery
+- emailjs
 
 
 ### To-do List
@@ -33,7 +34,7 @@ https://latte-web.netlify.app
 - [x] Create a Hamburger Menu (for Mobile).
 - [x] Hide Header until Main Component.
 - [x] Add an arrow on Presentation Component (for Mobile).
-- [ ] Catch form information and send a personalized email.
+- [x] Catch form information and send a personalized email.
 
 
 ### Installation
