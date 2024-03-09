@@ -147,7 +147,7 @@ const OrderForm = () => {
                                                                 <img src={item.src} alt={item.alt} className="object-contain" data-name={item.name} data-src={item.src} data-alt={item.alt} />
                                                             </div>
                                                             <div className="flex justify-center items-center w-full h-[30%]" data-name={item.name} data-src={item.src} data-alt={item.alt}>
-                                                                <h4 data-name={item.name} data-src={item.src} data-alt={item.alt} className="3xl:text-[1rem] text-[0.72rem] font-semibold"> {item.name} </h4>
+                                                                <h4 data-name={item.name} data-src={item.src} data-alt={item.alt} className="3xl:text-[1rem] text-[0.71rem] font-semibold 3xl:font-light"> {item.name} </h4>
                                                             </div>
                                                         </div>
                                                     )
@@ -166,7 +166,7 @@ const OrderForm = () => {
                                                             <img src={itemSelected.src} alt={itemSelected.alt} className="object-contain p-1" />
                                                         </div>
                                                         <div className="flex justify-center items-center w-full h-[30%] ">
-                                                            <h4 className="3xl:text-[1rem] text-[0.75rem] font-semibold">{itemSelected.name}</h4>
+                                                            <h4 className="3xl:text-[1rem] text-[0.75rem] font-semibold 3xl:font-light">{itemSelected.name}</h4>
                                                         </div>
                                                     </div>
                                                 )
