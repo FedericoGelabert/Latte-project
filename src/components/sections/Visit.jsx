@@ -3,7 +3,7 @@ import { yTransition, opacityTransition } from "../../utils/transitions";
 
 const Visit = () => {
     return (
-        <div className="w-screen h-screen relative font-ubuntu flex justify-center items-center lg:mt-0 mt-96" id="visit">
+        <div className="w-screen h-screen relative font-ubuntu flex justify-center items-center lg:mt-0 mt-96 mb-[40rem] lg:mb-6 3xl:mb-20" id="visit">
             <div className="flex flex-col justify-center items-center text-white z-30 gap-10 xl:mr-12 2xl:mr-24 mr-0 mt-12">
                 <div className="bg-[rgba(223,219,182,.9)] lg:mb-0 mb-24 sm:w-[20rem] xs:w-[20rem] w-[18rem] lg:w-0 pr-[5rem] sm:h-[5rem] h-[4.5rem] lg:h-0 flex justify-center items-center lg:py-0 py-5 rounded-3xl relative">
                     <h2 className="text-gray-700 sm:text-[2.5rem] text-[2.2rem] lg:text-[0rem] pl-6">Vist us</h2>

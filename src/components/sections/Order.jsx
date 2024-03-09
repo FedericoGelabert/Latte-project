@@ -16,7 +16,7 @@ const Order = () => {
 
 
   return (
-    <div className="w-screen h-screen relative font-ubuntu flex flex-col items-center justify-center mt-[40rem] mb-[30rem] lg:mt-6" id="order">
+    <div className="w-screen h-screen relative font-ubuntu flex flex-col items-center justify-center mb-[60rem] lg:mb-[10rem]" id="order">
       {
         orderForm ?
           <div id="orderForm">
