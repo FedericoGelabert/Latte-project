@@ -11,7 +11,7 @@ const Presentation = () => {
                     Latte
                 </motion.h1>
             </div>
-            <a href="#home" className="absolute mb-12 bottom-0">
+            <a href="#home" className="absolute mb-16 bottom-0">
             <motion.i className="fa-solid fa-angle-up lg:text-[5rem] text-[4rem] text-white rotate-180 arrowAnimation"
                 variants={opacityTransition}
                 initial="hidden"
