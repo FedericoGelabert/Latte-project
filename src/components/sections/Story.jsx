@@ -18,7 +18,7 @@ const Story = () => {
     })
 
     return (
-        <div className="xl:w-screen xl:h-screen relative font-ubuntu flex items-center justify-center mt-48 lg:pb-0 pb-[10rem]" id="story">
+        <div className="xl:w-screen xl:h-screen relative font-ubuntu flex items-center justify-center pt-48 lg:pb-0 pb-[10rem]" id="story">
             <div className="w-full h-full flex items-center justify-center text-white z-30 relative">
                 <div className="h-full flex items-center justify-center relative">
                     <motion.img src="coffee-pot.webp" alt="Logo" className="absolute w-0 z-40 xl:mr-[45rem] 3xl:mr-[50rem] xl:w-[28rem] 3xl:w-[32rem] drop-shadow-2xl -rotate-6"
