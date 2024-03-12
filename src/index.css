@@ -30,11 +30,6 @@ body {
   font-weight: 600;
 }
 
-/* .fastlinks a {
-  padding: 5px;
-  font-size: 1.2rem;
-} */
-
 .fa-star,
 .fa-star-half-stroke {
   color: rgba(255, 255, 0, 0.993);

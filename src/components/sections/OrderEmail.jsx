@@ -33,7 +33,7 @@ const OrderEmail = () => {
 
 
     return (
-        <div className='w-screen h-screen flex justify-center items-center'>
+        <div className='xl:w-screen xl:h-screen flex justify-center items-center'>
             {
                 status ?
                     <motion.div className="flex flex-col justify-center xs:w-[25rem] w-11/12 h-[12rem] items-center bg-[rgba(10,57,52,.89)] text-center rounded-3xl relative shadow-xl shadow-black"

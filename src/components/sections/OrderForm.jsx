@@ -104,7 +104,7 @@ const OrderForm = () => {
                     <div>
                         <OrderEmail />
                     </div> :
-                    <motion.div className="w-screen h-screen relative font-ubuntu flex items-center justify-center xl:mt-0 mt-48 xl:mb-0 mb-48 pt-6" id="orderForm"
+                    <motion.div className="w-screen xl:h-screen relative font-ubuntu flex items-center justify-center xl:mt-0 mt-48 xl:pb-0 pt-6" id="orderForm"
                         variants={opacityTransition}
                         initial="hidden"
                         whileInView="visible"
